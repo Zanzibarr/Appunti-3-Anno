@@ -4,12 +4,12 @@ L'80% del tempo, tutti i computer stanno facendo accesso a database (es supermer
 # COS'E' UN DATABASE
 L'essere umano ha sempre avuto bisogno di memorizzare ed elaborare informazioni (es antico egitto e il grano, censimento impero romano)
 I dati raccolti devono essere disponibili per tutti
-Bisogna organizzare i dati in maniera organica (organizzare i dati secondo prencisi criteri di omogeneità e sequenzialità)
+Bisogna organizzare i dati in maniera organica (organizzare i dati secondo precisi criteri di omogeneità e sequenzialità)
 
 ## DBMS
 Un DBMS (Database Management System) è un programma in grado di generare ed elaborare uno o più database e di scrivere tutte le funzionalità in grado di permettere la lettura e scrittura dei dati.
 C'è un'organizzazione logica nella creazione di un database
-Ci si rese conto in fretta che i dati venivano spesso ripetuti (spazio sprecato)
+Ci si rese conto in fretta che i dati venivano spesso ripetuti (spazio sprecato), si risolve questo problema utilizzando codici identificativi (utilizzati per collegare elementi di diverse tabelle)
 
 ## DATO
 Un dato è un'informazione grezza
@@ -40,7 +40,7 @@ Le 2 principali sono:
 	- Modifica della struttura delle tabelle
 - **DML** (Data Manipulation Language)
 	Consentono di interagire con il ==contenuto del database==:
-	- Inserimento
+	- Inserimento (di dati)
 	- Modifica
 	- Ricerca
 	- Cancellazione

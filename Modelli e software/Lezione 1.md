@@ -14,17 +14,17 @@ Il modello matematico è strutturato da una ==serie di variabili== e da una ==fu
 Oltre alla funzione obiettivo abbiamo anche dei ==vincoli==.
 $$
 \begin{cases}
-min\quad f(x_1, ..., x_n)\qquad funzione\quad obiettivo\\\\
-g_1(x_1, ..., x_n) \ge0\qquad\quad vincolo\quad 1 \\\\
-g_2(x_1, ..., x_n) \ge0\qquad\quad vincolo\quad 2
+min~f(x_1, ..., x_n)\qquad funzione~obiettivo\\\\
+g_1(x_1, ..., x_n) \ge0\qquad\quad vincolo~1 \\\\
+g_2(x_1, ..., x_n) \ge0\qquad\quad vincolo~2
 \end{cases}
 $$
 Esempio dello zaino (vedi slides iniziali)
 $$
 \begin{cases}
-max(4x_1+2x_2+10x_3+x_4+2x_5) \\\\
+max~4x_1+2x_2+10x_3+x_4+2x_5 \\\\
 12x_1+x_2+4x_3+x_4+2x_5\le15 \\\\
-x_1, ..., x_5\in\{0,1\}\qquad 0/1=non\quad preso/preso
+x_1, ..., x_5\in\{0,1\}\qquad 0/1=non~preso/preso
 \end{cases}
 $$
 Questi strumenti servono in svariate applicazioni in ogni campo, per ==supportare delle decisioni==, per un ==risparmio economico energetico==, quindi migliorare la qualità della vita.
@@ -39,7 +39,7 @@ Dato un insieme di oggetti e un numero B, determinare il minimo numero di conten
 #### Cammino Minimo
 
 ## Come risolvere il problema?
-In tutta generalità un arbitrario problema di ottimizzazione è ==indecidibile==
+In tutta generalità un arbitrario problema di ottimizzazione è ==indecidibile== (quando un algoritmo risolverebbe un'istanza in un tempo indeterminato)
 Casi trattabili si ottengono restringendo i tipi di vincoli che si possono usare
 Questo però riduce anche la loro applicabilità (risoluzioni così specifiche che ==nessun problema è formulabile==)
 Dobbiamo trovare il miglior compromesso:

@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "236d34807f5dcb76",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e9315d2a1b1ef03",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84d1f8cafa39a766",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e056a65512f8ca3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c242f6f675b8f362",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a7f596c72ffef8b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\\quad",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "469bbff66c846890",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ad6ebb31f0496096",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ff14cbe3f064cf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8313484de9746050",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c69bfc42da32e5e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a032b9b0ae2f8ca7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "babdc3e57d38df5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fondamenti di Telecomunicazioni/Info del corso.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8e9315d2a1b1ef03",
+  "lastOpenFiles": [
+    "Modelli e software/Info del corso.md",
+    "Modelli e software/Lezione 1.md",
+    "Basi di Dati 1/Lezione 1.md",
+    "Fondamenti di Telecomunicazioni/Lezione 1.md",
+    "Fondamenti di Telecomunicazioni/Info del corso.md",
+    "Basi di Dati 1/PDF/Lezione 1.pdf",
+    "Basi di Dati 1/Info del corso.md"
+  ]
+}
