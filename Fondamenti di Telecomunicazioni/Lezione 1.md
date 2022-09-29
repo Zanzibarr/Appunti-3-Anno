@@ -1,0 +1,55 @@
+# RIPASSO PROBABILITA'
+Abbiamo un trasmettitore che trasmette messaggi a un ricevitore, il quale non sa che messaggi sta ricevendo (i messaggi sono delle variabili aleatorie)
+Il canale introduce modifiche non controllabili, che sono descrivibili solo come variabili aleatorie
+Utilizzo la probabilità per decidere se il bit trasmesso sia uno 0 o un 1 in casi di incertezza
+
+## SPAZIO DEGLI EVENTI
+$$S =\{\{trasmesso\quad0\}\{trasmesso\quad1\}\} $$
+$$x\in S\qquad P(x)\in [0,1]$$
+$$P(\bigcup_{x\in S}{x})=1$$
+Bisogna calcolare $P(x_1\land x_2)$ = probabilità che si verifichino contemporaneamente
+
+## VARIABILI ALEATORIE
+Una variabile aleatoria può essere discreta o continua
+Una variabile discreta è $X\in A_x = \{a_1, a_2, ..., a_n\}$ ad esempio l'insieme dei numeri interi o naturali.
+
+### DENSITA DI PROBABILITA' DI UNA VARIABILE ALEATORIA DISCRETA
+$$P_x(a)=P(X=a),\quad a\in A$$
+$$P_x(a)\in[0,1]\qquad \sum_{a\in A}{P_x(a)}=1$$
+$$P(x\in A)=\sum_{b\in A}{P_x(b)}$$
+Es:
+$$P(x\quad vocale)=P_x('A')+P_x('E')+...+P_x('U')$$
+Ogni insieme discreto può essere mappato in un insieme continuo
+
+#### VALORE ATTESO
+$$E(x)=\sum_{a\in A}{aP_x(a)}=m_x\qquad x\in \Re$$
+Consideriamo una variabile aleatoria $x\in A contenuto in \Re$ e una funzinoe deterministica $g:A -> \Re$
+Es:
+$$g(a)=-a\qquad g(a)=a^2$$
+Es$$x\in \{1, 2, 3, 4\}\qquad g(a)=a^2$$
+$$P(g(x)=4)=P(x=2)$$
+Il 4 si può ricavare solo dal 2
+Se nell'alfabeto di x, ci fosse stato anche il -2, bisognava sommare anche $P(x=-2)$
+
+#### POTENZA DI UNA V.A. X
+$$g(x)=x^2$$
+$$E(x^2)=\sum_{a\in A}{a^2P_x(a)}=M_x$$
+Ad esempio, in un circuito si ha che $$V=RI,\quad I=\frac{V}{R}$$
+$$P_{ist}=VI=\frac{V^2}{R}$$
+Se voglio calcolare mediamente il consumo elettrico, quello che interessa a noi è il valore medio della potenza
+$$P_{media}=E(P_{ist})=\frac{1}{R}E(V^2)$$
+(R è un valore fisso, non statistico)
+
+#### VARIANZA
+$$E((x-m_x)^2)=\sigma_x^2$$
+#### DEVIAZIONE STANDARD
+$$\sigma_x=\sqrt{\sigma_x^2}\quad(radice\quad della\quad varianza)$$
+#### RELAZIONE
+$$M_x = \sigma_x^2+m_x^2\quad potenza = varianza+media^2$$
+#### LINEARITA' ASPETTAZIONE
+$$E(ax+by)=aE(x)+bE(y)$$
+$$E((x-y)^2)=^?(E(x-y))^2$$
+In generale questa ultima formula non è vera.
+$$E((x-y)^2)=E(x^2+y^2-2xy)=E(x^2)+E(y^2)-2E(xy)$$
+$$E(xy)=^?E(x)E(y)$$
+Vero solo se sono ==indipentendi==.

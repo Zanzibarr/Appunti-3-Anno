@@ -1,0 +1,46 @@
+L'80% del tempo, tutti i computer stanno facendo accesso a database (es supermercato, casello del'autostrada, bancomat, ecc)
+
+
+# COS'E' UN DATABASE
+L'essere umano ha sempre avuto bisogno di memorizzare ed elaborare informazioni (es antico egitto e il grano, censimento impero romano)
+I dati raccolti devono essere disponibili per tutti
+Bisogna organizzare i dati in maniera organica (organizzare i dati secondo prencisi criteri di omogeneità e sequenzialità)
+
+## DBMS
+Un DBMS (Database Management System) è un programma in grado di generare ed elaborare uno o più database e di scrivere tutte le funzionalità in grado di permettere la lettura e scrittura dei dati.
+C'è un'organizzazione logica nella creazione di un database
+Ci si rese conto in fretta che i dati venivano spesso ripetuti (spazio sprecato)
+
+## DATO
+Un dato è un'informazione grezza
+C'è una differenza tra dato e informazione.
+Dato: ==rappresentazione originaria==, ==non interpretata== di un evento o di un fenomeno, effettuata attraverso dei simboli o in un'altra forma espressiva ==legati ad un supporto==.
+	es:
+	11 30 23.9 1014 9 SE
+	Questa sequenza di simboli rappresenta una misurazione di un fenomeno fatta in un particolare istante di tempo.
+	Questo dato non lo capisco, ho bisogno di un'informazione; ==manca la chiave interpretativa==
+Se ad un dato aggiungiamo qualche simbolo, ==il dato diventa informazione==.
+	es:
+	ore    min     °C      hPa    Km/h    dir
+	 11     30     23.9    1014       9       SE
+
+## DATABASE
+Una base di dati rappresenta ==un aspetto del mondo reale== (spesso chiamato minimondo) che è di interesse per qualche ==specifico scopo==, ed è un ==insieme di dati coerenti== e con ==un significato preciso per un particolare insieme di utenti==.
+
+Il software che gestisce una base di dati si chiama DBMS e permette di interagire con le basi di dati (crearle, modificarle).
+Posso interagire con il DBMS in modo interativo o tramite linguaggi di programmazione (il più famoso è SQL, STRUCTURED QUERY LANGUAGE)
+
+# CLASSIFICAZIONE DELLE ISTRUZIONI SQL
+Le istruzioni di SQL si possono classificare in ==4 categorie==.
+Le 2 principali sono:
+- **DDL** (Data Definition Language)
+	Consentono di interagire con la ==struttura del database==:
+	- Creazione di un database
+	- Creazione delle tabelle
+	- Modifica della struttura delle tabelle
+- **DML** (Data Manipulation Language)
+	Consentono di interagire con il ==contenuto del database==:
+	- Inserimento
+	- Modifica
+	- Ricerca
+	- Cancellazione
