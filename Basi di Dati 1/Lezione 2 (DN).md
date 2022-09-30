@@ -53,4 +53,4 @@ Esistono 3 elementi di uno schema ER:
 	- Per determinare l'attributo ==identificatore==, il pallino va ==riempito==
 
 Es:
-![[ERD-Studente.png]]
+![[Img/ERD-Studente.png]]
