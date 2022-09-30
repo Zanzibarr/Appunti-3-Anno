@@ -1,3 +1,4 @@
+29/09/2022
 L'80% del tempo, tutti i computer stanno facendo accesso a database (es supermercato, casello del'autostrada, bancomat, ecc)
 
 
@@ -12,6 +13,9 @@ C'è un'organizzazione logica nella creazione di un database
 Ci si rese conto in fretta che i dati venivano spesso ripetuti (spazio sprecato), si risolve questo problema utilizzando codici identificativi (utilizzati per collegare elementi di diverse tabelle)
 
 ## DATO
+
+^d5a36b
+
 Un dato è un'informazione grezza
 C'è una differenza tra dato e informazione.
 Dato: ==rappresentazione originaria==, ==non interpretata== di un evento o di un fenomeno, effettuata attraverso dei simboli o in un'altra forma espressiva ==legati ad un supporto==.

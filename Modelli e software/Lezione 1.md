@@ -1,3 +1,4 @@
+29/09/2022
 # COS'E' UN PROBLEMA DI OTTIMIZZAZIONE
 Quando abbiamo un insieme di decisioni da prendere collegate tra di loro con la possibilità di calcolare una misura quantificabile per valutare la mia decisione.
 Ovviamente lo scopo è cercare la miglior decisione secondo la misura quantificabile.

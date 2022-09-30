@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8e9315d2a1b1ef03",
+        "id": "eadc45f52bc6a1ae",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+            "file": "Fondamenti di Elettronica/Info del corso.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+                "file": "Fondamenti di Elettronica/Info del corso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Info del corso.md",
+                "file": "Fondamenti di Elettronica/Info del corso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Info del corso.md"
+                "file": "Fondamenti di Elettronica/Info del corso.md"
               }
             }
           }
@@ -128,14 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8e9315d2a1b1ef03",
+  "active": "eadc45f52bc6a1ae",
   "lastOpenFiles": [
-    "Modelli e software/Info del corso.md",
+    "Basi di Dati 1/Lezione 2 (DN).md",
+    "Fondamenti di Elettronica/Info del corso.md",
+    "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
+    "Basi di Dati 1/Info del corso.md",
+    "Basi di Dati 1/Lezione 1 (P).md",
     "Modelli e software/Lezione 1.md",
-    "Basi di Dati 1/Lezione 1.md",
+    "Modelli e software/PDF/Lezione 1.pdf",
     "Fondamenti di Telecomunicazioni/Lezione 1.md",
-    "Fondamenti di Telecomunicazioni/Info del corso.md",
-    "Basi di Dati 1/PDF/Lezione 1.pdf",
-    "Basi di Dati 1/Info del corso.md"
+    "Fondamenti di Telecomunicazioni/PDF/Lezione 1.pdf",
+    "Basi di Dati 1/PDF/Lezione 1 (P).pdf"
   ]
 }

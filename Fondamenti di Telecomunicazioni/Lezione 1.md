@@ -1,3 +1,4 @@
+29/09/2022
 # RIPASSO PROBABILITA'
 Abbiamo un trasmettitore che trasmette messaggi a un ricevitore, il quale non sa che messaggi sta ricevendo (i messaggi sono delle variabili aleatorie)
 Il canale introduce modifiche non controllabili, che sono descrivibili solo come variabili aleatorie
@@ -13,7 +14,7 @@ Bisogna calcolare $P(x_1\land x_2)=$ probabilità che si verifichino contemporan
 Una variabile aleatoria può essere discreta o continua
 Una variabile discreta è $X\in A_x = \{a_1, a_2, ..., a_n\}$ ad esempio l'insieme dei numeri interi o naturali.
 
-### DENSITA DI PROBABILITA' DI UNA VARIABILE ALEATORIA DISCRETA
+### DENSITA' DI PROBABILITA' DI UNA VARIABILE ALEATORIA DISCRETA
 $$P_x(a)=P(X=a),\quad a\in A$$
 $$P_x(a)\in[0,1]\qquad \sum_{a\in A}{P_x(a)}=1$$
 $$P(x\in A)=\sum_{b\in A}{P_x(b)}$$
@@ -22,8 +23,8 @@ $$P(x~vocale)=P_x('A')+P_x('E')+...+P_x('U')$$
 Ogni insieme discreto può essere mappato in un insieme continuo
 
 #### VALORE ATTESO
-$$E(x)=\sum_{a\in A}{aP_x(a)}=m_x\qquad x\in \Re$$
-Consideriamo una variabile aleatoria $x\in A\subseteq\Re$ e una funzinoe deterministica $g:A\to\Re$
+$$E(x)=\sum_{a\in A}{aP_x(a)}=m_x\qquad x\in\mathbb{R}$$
+Consideriamo una variabile aleatoria $x\in A\subseteq\mathbb{R}$ e una funzinoe deterministica $g:A\to\mathbb{R}$
 $$x\in A=\{1, 2, 3, 4\}\qquad g(a)=a^2$$
 $$P(g(x)=4)=P(x=2)$$
 Il 4 si può ricavare solo dal 2
@@ -43,12 +44,12 @@ $$P_{media}=E(P_{ist})=\frac{1}{R}E(V^2)$$
 $$E((x-m_x)^2)=\sigma_x^2$$
 #### DEVIAZIONE STANDARD
 $$\sigma_x=\sqrt{\sigma_x^2}\quad(radice~della~varianza)$$
-#### RELAZIONE
+##### RELAZIONE
 $$M_x = \sigma_x^2+m_x^2\qquad potenza = varianza+media^2$$
 #### LINEARITA' ASPETTAZIONE
 $$E(ax+by)=aE(x)+bE(y)$$
 $$E((x-y)^2)=^?(E(x-y))^2$$
-In generale questa ultima formula non è vera:
+In generale questa ultima formula **non è vera**:
 $$E((x-y)^2)=E(x^2+y^2-2xy)=E(x^2)+E(y^2)-2E(xy)$$
 $$E(xy)=^?E(x)E(y)$$
-Vero solo se sono $x$ e $y$ sono ==indipendenti==.
+Vero **solo se** $x$ e $y$ sono ==indipendenti==.
