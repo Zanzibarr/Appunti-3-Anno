@@ -28,11 +28,6 @@ Ci permette di gestire gli oggetti e le associazioni tra i vari oggetti.
 
 ```mermaid
 graph LR
-	subgraph esame
-		ESAMI --> AULA
-		ESAMI --> DATA_APPELLO
-		ESAMI --> DATA_VERB
-	end
 	subgraph corso
 		CORSO --> NOME_CORSO
 		CORSO --> PROFESSORE
@@ -41,12 +36,12 @@ graph LR
 		CORSO --> ANNO
 	end
 	subgraph studente
-		STUDENTI	--> NOME
-		STUDENTI	--> COGNOME
-		STUDENTI	--> MATRICOLA
+		STUDENTE	--> NOME
+		STUDENTE	--> COGNOME
+		STUDENTE	--> MATRICOLA
+		STUDENTE    --> MEDIA
 	end
-	STUDENTI -->|segue| CORSO
-	CORSO -->|termina| ESAMI
+	STUDENTE -->|segue| CORSO
 	
 ```
 $\uparrow$ **Non** è un diagramma ER, solo un esempio di astrazione $\uparrow$
@@ -58,4 +53,4 @@ Esistono 3 elementi di uno schema ER:
 	- Per determinare l'attributo ==identificatore==, il pallino va ==riempito==
 
 Es:
-(FARE DISEGNO SU DRAWBOARD CON STUDENTE - {MATRICOLA, NOME, COGNOME}, MATRICOLA IDENTIFICATIVO)
+![[ERD-Studente.png]]
