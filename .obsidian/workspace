@@ -7,10 +7,8 @@
         "id": "eadc45f52bc6a1ae",
         "type": "leaf",
         "state": {
-          "type": "pdf",
-          "state": {
-            "file": "Basi di Dati 1/PDF/Lezione 2 (DN).pdf"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -75,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Basi di Dati 1/PDF/Lezione 2 (DN).pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -126,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c242f6f675b8f362",
+  "active": "eadc45f52bc6a1ae",
   "lastOpenFiles": [
+    "Basi di Dati 1/Lezione 3(P).md",
     "Basi di Dati 1/Lezione 2 (DN).md",
+    "Basi di Dati 1/Lezione 1 (P).md",
+    "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
     "ERD-Studente.png",
     "Fondamenti di Elettronica/Info del corso.md",
-    "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
     "Basi di Dati 1/Info del corso.md",
-    "Basi di Dati 1/Lezione 1 (P).md",
     "Modelli e software/Lezione 1.md",
     "Modelli e software/PDF/Lezione 1.pdf",
-    "Fondamenti di Telecomunicazioni/Lezione 1.md",
-    "Fondamenti di Telecomunicazioni/PDF/Lezione 1.pdf"
+    "Fondamenti di Telecomunicazioni/Lezione 1.md"
   ]
 }
