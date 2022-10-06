@@ -7,8 +7,17 @@
         "id": "eadc45f52bc6a1ae",
         "type": "leaf",
         "state": {
+<<<<<<< Updated upstream
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+            "file": "Basi di Dati 1/Lezione 3(P).md",
+            "mode": "source",
+            "source": false
+          }
+>>>>>>> Stashed changes
         }
       }
     ],
@@ -73,6 +82,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "Basi di Dati 1/Lezione 3(P).md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +102,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "Basi di Dati 1/Lezione 3(P).md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +127,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< Updated upstream
               "state": {}
+=======
+              "state": {
+                "file": "Basi di Dati 1/Lezione 3(P).md"
+              }
+>>>>>>> Stashed changes
             }
           }
         ]
