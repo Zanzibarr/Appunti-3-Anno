@@ -55,6 +55,23 @@ I valori assunti dai segnali possono essere:
 I ==segnali analogici== sono ==segnali continui== con ==valori continui==
 I ==segnali digitali== sono ==segnali discreti== con ==valori discreti==
 
+Es:
+$$
+rect(t)=
+\begin{cases}
+0\qquad t<-\frac{1}{2}\lor t>1 \\\\
+1\qquad t\in[-\frac{1}{2};\frac{1}{2}]
+\end{cases}
+$$
+![[rect(t).png]]
+$$
+triang(t)=
+\begin{cases}
+0\qquad t<-1\lor t>1 \\\\
+1-|t|\qquad t\in[-1;1]
+\end{cases}
+$$
+![[triang(t).png]]
 ## RITARDO DI UN SEGNALE
 Un ritardo di un segnale avviene quando l'intero segnale è trasposto di un tempo $t_0$:
 $$s(t)=y(t-t_0)$$

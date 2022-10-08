@@ -7,11 +7,9 @@
         "id": "eadc45f52bc6a1ae",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
-            "mode": "source",
-            "source": false
+            "file": "Fondamenti di Telecomunicazioni/PDF/Lezione 3.pdf"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
+                "file": "Fondamenti di Telecomunicazioni/PDF/Lezione 3.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
+                "file": "Fondamenti di Telecomunicazioni/PDF/Lezione 3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md"
+                "file": "Fondamenti di Telecomunicazioni/PDF/Lezione 3.pdf"
               }
             }
           }
@@ -128,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eadc45f52bc6a1ae",
+  "active": "c242f6f675b8f362",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/Lezione 2.md",
-    "Fondamenti di Telecomunicazioni/Lezione 1.md",
     "Fondamenti di Telecomunicazioni/Lezione 3.md",
-    "Basi di Dati 1/PDF/Lezione 3(P).pdf",
-    "Basi di Dati 1/Lezione 3(P).md",
-    "Img/Tabelle Lezione 3 DB.png",
+    "Fondamenti di Telecomunicazioni/Lezione 2.md",
     "Basi di Dati 1/Lezione 2 (DN).md",
-    "Img/Canale elementare.png",
-    "Img/Decomposizione ERD.png",
-    "Img/ERD_Studente-(1,n)-Esame-(n,1)-Tipi Esame.png"
+    "Img/interpolazione.png",
+    "Img/Campionamento.png",
+    "Img/Holder su un segnale discreto.png",
+    "Fondamenti di Telecomunicazioni/PDF/Lezione 2.pdf",
+    "Img/triang(t).png",
+    "Img/rect(t).png",
+    "Fondamenti di Telecomunicazioni/Lezione 1.md"
   ]
 }
