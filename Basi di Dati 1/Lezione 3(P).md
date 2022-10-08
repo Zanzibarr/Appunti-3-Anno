@@ -2,45 +2,24 @@
 # ENTITA'
 Un'entità rappresenta un ==oggetto o concetto== del ==mondo reale==
 
-# (aggiungo disegno)
-![[Pasted image 20221006123445.png]]
+![[ERD-Auto_Studente_Fattura.png]]
 
 La chiave primaria (univoca) identifica attraverso il suo valore un'unica istanza di un'entità
 - singola: attributo univoco
 - multipla: attributo composto
 
 Es:
-STUDENTE
-MATRICOLA | COGNOME | NOME
------- | ------ | ------
-001 | Pitagorico | Archimede
-002 | De Paperis | Pico
-
-ESAMI
-CODICE | DENOMINAZIONE
------- | ------
-001 | Analisi 1
-002 | Fondamenti di Informatica
-003 | Fisica 1
-
-ESAMI SOSTENUTI
-MATRICOLA | CODICE ESAME | DATA | VOTO
------- | ------ | ------ | ------
-001 | 001 | 15/02/2020 | 30L
-001 | 003 | 12/06/2020 | 30
-002 | 001 | 14/06/2020 | 29
-002 | 002 | 19/06/2020 | 30
-001 | 002 | 01/07/2020 | 28
+![[Tabelle Lezione 3 DB.png]]
 
 Nei database studente e esami, matricola e codice sono visti come attributi univoci, mentre nel database degli esami sostenuti, entrambe si uniscono per formare un attributo composto.
 
-# (aggiungo disegno)
+![[ERD_Studente-(1,n)-Esame-(n,1)-Tipi Esame.png]]
 
 ## DECOMPOSIZIONE DELLE ASSOCIAZIONI "MOLTI A MOLTI"
 Un'associazione del tipo "molti a molti" ==non è implementabile== tramite un DBMS, dobbiamo ==decomporla in una serie di associazioni di tipo "uno a molti"== interponendo un'==entità di congiunzione==
 
 Es:
-# (aggiungo disegno)
+![[Decomposizione ERD.png]]
 
 # POSTGRESQL
 Un sistema di ==gestione di database relazionali==

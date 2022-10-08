@@ -7,23 +7,12 @@
         "id": "eadc45f52bc6a1ae",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-          "type": "empty",
-          "state": {}
-=======
           "type": "markdown",
           "state": {
-            "file": "Basi di Dati 1/Lezione 3(P).md",
-=======
-          "type": "markdown",
-          "state": {
-            "file": "Basi di Dati 1/Lezione 2 (DN).md",
->>>>>>> fee6bcfdfa74df01d7f6367c558d5a7e39a0d479
+            "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
             "mode": "source",
             "source": false
           }
->>>>>>> Stashed changes
         }
       }
     ],
@@ -88,14 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-                "file": "Basi di Dati 1/Lezione 3(P).md",
->>>>>>> Stashed changes
-=======
-                "file": "Basi di Dati 1/Lezione 2 (DN).md",
->>>>>>> fee6bcfdfa74df01d7f6367c558d5a7e39a0d479
+                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,14 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-                "file": "Basi di Dati 1/Lezione 3(P).md",
->>>>>>> Stashed changes
-=======
-                "file": "Basi di Dati 1/Lezione 2 (DN).md",
->>>>>>> fee6bcfdfa74df01d7f6367c558d5a7e39a0d479
+                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,17 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< Updated upstream
-              "state": {}
-=======
               "state": {
-<<<<<<< HEAD
-                "file": "Basi di Dati 1/Lezione 3(P).md"
-=======
-                "file": "Basi di Dati 1/Lezione 2 (DN).md"
->>>>>>> fee6bcfdfa74df01d7f6367c558d5a7e39a0d479
+                "file": "Fondamenti di Telecomunicazioni/Lezione 3.md"
               }
->>>>>>> Stashed changes
             }
           }
         ]
@@ -163,21 +130,15 @@
   },
   "active": "eadc45f52bc6a1ae",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "Fondamenti di Telecomunicazioni/Lezione 2.md",
+    "Fondamenti di Telecomunicazioni/Lezione 1.md",
+    "Fondamenti di Telecomunicazioni/Lezione 3.md",
+    "Basi di Dati 1/PDF/Lezione 3(P).pdf",
     "Basi di Dati 1/Lezione 3(P).md",
+    "Img/Tabelle Lezione 3 DB.png",
     "Basi di Dati 1/Lezione 2 (DN).md",
-    "Basi di Dati 1/Lezione 1 (P).md",
-    "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
-    "ERD-Studente.png",
-=======
-    "Basi di Dati 1/PDF/Lezione 2 (DN).pdf",
-    "Basi di Dati 1/Lezione 2 (DN).md",
-    "Img/ERD-Studente.png",
->>>>>>> fee6bcfdfa74df01d7f6367c558d5a7e39a0d479
-    "Fondamenti di Elettronica/Info del corso.md",
-    "Basi di Dati 1/Info del corso.md",
-    "Modelli e software/Lezione 1.md",
-    "Modelli e software/PDF/Lezione 1.pdf",
-    "Fondamenti di Telecomunicazioni/Lezione 1.md"
+    "Img/Canale elementare.png",
+    "Img/Decomposizione ERD.png",
+    "Img/ERD_Studente-(1,n)-Esame-(n,1)-Tipi Esame.png"
   ]
 }
