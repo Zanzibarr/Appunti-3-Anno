@@ -1,3 +1,5 @@
+03/10/2022
+
 ## VARIABILI ALEATORIE CONTINUE
 Per le variabili aleatorie continue, lo spazio degli eventi è
 $$n:\ohm\to\mathbb{R}\qquad n\in\mathbb{R}$$

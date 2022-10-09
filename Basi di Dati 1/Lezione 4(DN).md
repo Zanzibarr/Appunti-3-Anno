@@ -1,3 +1,5 @@
+06/10/2022
+
 I passaggi per la creazione di un DB sono:
 - ==Analisi dei requisiti==
 - ==Progettazione concettuale==

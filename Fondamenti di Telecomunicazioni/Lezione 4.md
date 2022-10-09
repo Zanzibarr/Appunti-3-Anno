@@ -1,3 +1,5 @@
+06/10/2022
+
 # ENERGIA DI UN SEGNALE
 Per un segnale a tempo continuo:
 $$E_x=\int_{-\infty}^{\infty}x^2(t)dt$$

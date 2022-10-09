@@ -1,3 +1,5 @@
+04/10/2022
+
 ## CAMPIONAMENTO DI UN SEGNALE
 Dato un segnale a tempo continuo $s(t)$, la sua versione campionata con un periodo di campionamento T $x(nT)$ ==trasforma il segnale da tempo continuo a tempo discreto a valori discreti==
 
