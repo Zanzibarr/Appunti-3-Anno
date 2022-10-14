@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f161a082a7049768",
+        "id": "c1b68b8dc5adb6fa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Basi di Dati 1/Lezione 8(DN).md",
-            "mode": "source",
-            "source": false
+            "file": "Basi di Dati 1/PDF/Lezione 7(DN).pdf"
           }
         }
       }
@@ -40,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "\\quad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati 1/Lezione 8(DN).md",
+                "file": "Basi di Dati 1/PDF/Lezione 7(DN).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati 1/Lezione 8(DN).md",
+                "file": "Basi di Dati 1/PDF/Lezione 7(DN).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati 1/Lezione 8(DN).md"
+                "file": "Basi di Dati 1/PDF/Lezione 7(DN).pdf"
               }
             }
           }
@@ -128,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f161a082a7049768",
+  "active": "c1b68b8dc5adb6fa",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/Lezione 7.md",
-    "Basi di Dati 1/Lezione 7(DN).md",
     "Basi di Dati 1/Lezione 8(DN).md",
-    "Project Management/oppai.md",
-    "2022-10-14.md",
-    "Fondamenti di Telecomunicazioni/Lezione 4.md",
+    "Fondamenti di Telecomunicazioni/Lezione 7.md",
+    "Img/s1 e s2 002.png",
+    "Img/A triang(t-t0 su B mezzi).png",
+    "Img/s1 e s2 001.png",
+    "Pasted image 20221014154231.png",
+    "Img/triang z e quadrato.png",
     "Fondamenti di Telecomunicazioni/Lezione 6.md",
-    "Img/Decomposizione ERD.png",
-    "Basi di Dati 1/Lezione 3(P).md",
-    "Basi di Dati 1/Lezione 4(DN).md"
+    "Img/Segnali a supporto disgiunto.png",
+    "Img/Segnali ortogonali per prodotto.png"
   ]
 }

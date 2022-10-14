@@ -21,8 +21,9 @@ I vettori sono ortogonali in quanto il ==prodotto interno (scalare) da 0==, sono
 $\underline{Es:}$
 $$\int_{-\infty}^{\infty}x(t)y(t)dt=0$$
 questo caso si verifica
-- se i due segnali hanno ==sostegni diversi== (se sono non nulli in momenti diversi, il prodotto dei segnali sarà sempre nullo); in questo caso i segnali hanno ==supporto disgiunto== TODO: INSERISCO DISEGNO 0
-- TODO: INSERISCO DISEGNO 1
+- se i due segnali hanno ==sostegni diversi== (se sono non nulli in momenti diversi, il prodotto dei segnali sarà sempre nullo); in questo caso i segnali hanno ==supporto disgiunto==
+  ![[Segnali a supporto disgiunto.png]]
+- se l'area del prodotto dei due segnali è nulla![[Segnali ortogonali per prodotto.png]]
 
 ## SOTTOSPAZIO GENERATO DA UN INSIEME DI N SEGNALI A ENERGIA FINITA
 Dati n segnali $s_1(t),...,s_n(t)$, il sottospazio generato da questi segnali è l'insieme dei vettori (compresi quelli ottenuti da operazioni tra vettori):
@@ -30,9 +31,6 @@ $$s(t)=\sum_{n=1}^N\alpha_ns_n(t),\qquad\alpha_n\in\mathbb{R},\quad \forall n$$
 I vettori ==non sono per forza ortonormali==
 Perchè si tratti di un sottospazio vettoriale bisogna che sia ==chiuso per le operazioni di somma e prodotto==
 $$x(t)+y(t)=\sum_n\alpha_ns_n(t)+\sum_n\beta_ns_n(t)=\sum_n(\alpha_n+\beta_n)s_n(t)$$
-
-$\underline{Es:}$
-TODO: INSERIRE DISEGNO 2
 
 Partendo da segnali che generano un sottospazio, posso descrivere il sottospazio con una base ortonormale di dimensione $I\leq N,~\phi_1(t),...,\phi_I(t)$
 $$x(t)\iff x=[x1,...,x_I]$$

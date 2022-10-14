@@ -2,7 +2,7 @@
 
 # ENERGIA DEL TRIANGOLO
 $$s(t)=A~triang(\frac{t-t_0}{\frac{B}{2}})$$
-TODO: Inserisco disegno triangolo alto A, largo B, centrato in t0
+![[A triang(t-t0 su B mezzi).png]]
 
 $$E_s=\int_{-\infty}^{\infty}s^2(t)dt=\int_{-\infty}^{\infty}[A~triang(\frac{t-t_0}{\frac{B}{2}})]^2dt=...$$
 $$...=A^2\int_{-\infty}^{\infty}triang^2(\frac{t-t_0}{\frac{B}{2}})dt=...$$
@@ -11,7 +11,7 @@ $$...=A^2\int_{-\infty}^{\infty}triang^2(z)\frac{B}{2}dz=\frac{A^2B}{2}\int_{-\i
 (Da notare come ==ne la traslazione ne il cambio del segno alterano l'energia del segnale==)
 $triang(z)$ è una funzione pari, quindi lo è pure il suo quadrato
 
-TODO: Disegno triang(z) e il suo quadrato
+![[triang z e quadrato.png]]
 
 $$\int_{-\infty}^{\infty}triang^2(z)dz=2\int_0^1(1-z)^2dz=2[-\frac{(1-z)^3}{3}]_0^1=\frac{2}{3}$$
 #### $$E_s=\frac{A^2B}{3}$$
@@ -19,7 +19,7 @@ $$\int_{-\infty}^{\infty}triang^2(z)dz=2\int_0^1(1-z)^2dz=2[-\frac{(1-z)^3}{3}]_
 
 $\underline{Es~1:}$
 Considerare la segnalazione (al ricevitore) per una trasmissione su canale ideale
-TODO: Disegnare s1 e s2 da foto di Colla
+![[s1 e s2 001.png]]
 1) Scegliere il valore di $C>0$ t.c. $s_1(t)$ e $s_2(t)$ abbiano la stessa energia
 $$E_{s1}=\frac{1}{2}~\frac{0.6}{3}=\frac{1}{10}$$
 $$E_{s2}=C^2~0.2=\frac{C^2}{5}$$
@@ -38,7 +38,7 @@ Di conseguenza basta attenuare l'energia media:$$(\alpha^2)_{dB}=-13dB$$$$(E_r)_
 ----
 
 $\underline{Es~2:}$
-TODO: Disegnare da colla disegno 2
+![[s1 e s2 002.png]]
 1) Calcolare il valore minimo del tempo di simbolo che annulla l'interferrenza inter-simbolo
 $$T=5$$
 
