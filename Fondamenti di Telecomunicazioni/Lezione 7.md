@@ -1,0 +1,47 @@
+13/10/2022
+
+# ENERGIA DEL TRIANGOLO
+$$s(t)=A~triang(\frac{t-t_0}{\frac{B}{2}})$$
+TODO: Inserisco disegno triangolo alto A, largo B, centrato in t0
+
+$$E_s=\int_{-\infty}^{\infty}s^2(t)dt=\int_{-\infty}^{\infty}[A~triang(\frac{t-t_0}{\frac{B}{2}})]^2dt=...$$
+$$...=A^2\int_{-\infty}^{\infty}triang^2(\frac{t-t_0}{\frac{B}{2}})dt=...$$
+$$[\qquad z=\frac{t-t_0}{\frac{B}{2}}\to dz=\frac{dt}{\frac{B}{2}}\qquad dt=\frac{B}{2}dz\qquad]$$
+$$...=A^2\int_{-\infty}^{\infty}triang^2(z)\frac{B}{2}dz=\frac{A^2B}{2}\int_{-\infty}^{\infty}triang^2(z)dz=...$$
+(Da notare come ==ne la traslazione ne il cambio del segno alterano l'energia del segnale==)
+$triang(z)$ è una funzione pari, quindi lo è pure il suo quadrato
+
+TODO: Disegno triang(z) e il suo quadrato
+
+$$\int_{-\infty}^{\infty}triang^2(z)dz=2\int_0^1(1-z)^2dz=2[-\frac{(1-z)^3}{3}]_0^1=\frac{2}{3}$$
+#### $$E_s=\frac{A^2B}{3}$$
+----
+
+$\underline{Es~1:}$
+Considerare la segnalazione (al ricevitore) per una trasmissione su canale ideale
+TODO: Disegnare s1 e s2 da foto di Colla
+1) Scegliere il valore di $C>0$ t.c. $s_1(t)$ e $s_2(t)$ abbiano la stessa energia
+$$E_{s1}=\frac{1}{2}~\frac{0.6}{3}=\frac{1}{10}$$
+$$E_{s2}=C^2~0.2=\frac{C^2}{5}$$
+$$E_{s1}=E_{s2}\to \frac{1}{10}=\frac{C^2}{5}\to C=\pm\frac{1}{\sqrt{2}}$$
+2) Calcolare il valore minimo del tempo di simbolo che annulla l'interferenza inter-simbolo (T)
+$$T=0.3$$
+3) Il segnale ricevuto viene ora ritrasmesso su un canale che introduce una attenuazione di 13dB;
+   Calcolare l'energia media della segnalazione
+$$E_m=\sum_{i=1}^NP_iE_{Si}$$
+$E_{Si}$ energia del segnale i-esimo
+$P_i$ probabilità di avere il segnale i-esimo
+Siccome abbiamo segnali con la stessa energia: $$E_m=E_s\sum P_i=E_{S1}=E_{S2}$$ in quanto $$\sum P_i=1$$
+Di conseguenza basta attenuare l'energia media:$$(\alpha^2)_{dB}=-13dB$$$$(E_r)_{dBV^2s}=(E_s)_{dBV^2s}-13dB$$$$(E_s)_{dBV^2s}=10\log_{10}(0.1)=-10dBV^2s$$$$(E_r)_{dBV^2s}=-23dBV^2s\to E_r=10^{-\frac{23}{10}}=5~10^{-3}$$
+
+
+----
+
+$\underline{Es~2:}$
+TODO: Disegnare da colla disegno 2
+1) Calcolare il valore minimo del tempo di simbolo che annulla l'interferrenza inter-simbolo
+$$T=5$$
+
+----
+
+$$T=max\{larghezza~temporale\}-min\{ritardo ~iniziale\}$$

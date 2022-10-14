@@ -42,7 +42,8 @@ $$x(t)=\sum_{i=1}^Ix_i\phi_i(t)$$
 $<x(t),y(t)>$ con $x(t)$ e $y(t)$ nel sottospazio $\{\phi_1(t),...,\phi_I(t)\}$
 $$x_i=<x(t),\phi_i(t)>$$
 $$y_i=<y(t),\phi_i(t)>$$
-$$<x(t),y(t)>=<\sum_{i=1}^Ix_i\phi_i(t),\sum_{i=1}^Iy_i\phi_i(t)>=\sum_{i=1}^I\sum_{j=1}^I<x_i\phi_i(t),y_j\phi_j(t)>$$$$=^{*0}\sum_{i=1}^I\sum_{j=1}^Ix_iy_j<\phi_i(t),\phi_j(t)>=^{*1}\sum_{i=1}^Ix_iy_i<\phi_i(t),\phi_i(t)>=^{*2}\sum_{i=1}^Ix_iy_i$$
+----
+$$<x(t),y(t)>=<\sum_{i=1}^Ix_i\phi_i(t),\sum_{i=1}^Iy_i\phi_i(t)>=\sum_{i=1}^I\sum_{j=1}^I<x_i\phi_i(t),y_j\phi_j(t)>$$$=^{*0}\sum_{i=1}^I\sum_{j=1}^Ix_iy_j<\phi_i(t),\phi_j(t)>=^{*1}\sum_{i=1}^Ix_iy_i<\phi_i(t),\phi_i(t)>=^{*2}\sum_{i=1}^Ix_iy_i$$
 $$=<\underline{x},\underline{y}>$$
 prodotto interno nello spazio euclideo.
 
@@ -50,6 +51,11 @@ prodotto interno nello spazio euclideo.
 \*1: ortogonalità dei segnali della base
 \*2: normalizzazione dei segnali della base
 
-Energia:$$E_x=<x(t),x(t)>=\sum_{i=1}^Ix_i^2$$
-Norma:$$||x(t)||=\sqrt{E_x}=\sqrt{\sum_{i=1}^Ix_i^2}=||\underline{x}||$$
-Distanza:$$d^2(x(t),y(t))=||x(t)-y(t)||^2=\int_{-\infty}^{\infty}[x(t)-y(t)]^2dt$$$$x(t)-y(t)=\sum x_i\phi_i(t)-\sum y_i\phi_i(t)=\sum(x_i-y_i)\phi_i(t)\to \underline{x}-\underline{y}$$$$d^2(x(t),y(t))=...=||\underline{x}-\underline{y}||^2=d^2(\underline{x},\underline{y})$$
+----
+
+## ENERGIA
+$$E_x=<x(t),x(t)>=\sum_{i=1}^Ix_i^2$$
+## NORMA
+$$||x(t)||=\sqrt{E_x}=\sqrt{\sum_{i=1}^Ix_i^2}=||\underline{x}||$$
+## DISTANZA
+$$d^2(x(t),y(t))=||x(t)-y(t)||^2=\int_{-\infty}^{\infty}[x(t)-y(t)]^2dt$$$$x(t)-y(t)=\sum x_i\phi_i(t)-\sum y_i\phi_i(t)=\sum(x_i-y_i)\phi_i(t)\to \underline{x}-\underline{y}$$$$d^2(x(t),y(t))=...=||\underline{x}-\underline{y}||^2=d^2(\underline{x},\underline{y})$$

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "eadc45f52bc6a1ae",
+        "id": "f161a082a7049768",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fondamenti di Telecomunicazioni/Lezione 6.md",
+            "file": "Basi di Dati 1/Lezione 8(DN).md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 6.md",
+                "file": "Basi di Dati 1/Lezione 8(DN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 6.md",
+                "file": "Basi di Dati 1/Lezione 8(DN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/Lezione 6.md"
+                "file": "Basi di Dati 1/Lezione 8(DN).md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eadc45f52bc6a1ae",
+  "active": "f161a082a7049768",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/PDF/Lezione 4.pdf",
-    "Fondamenti di Telecomunicazioni/PDF/Lezione 3.pdf",
-    "Fondamenti di Telecomunicazioni/Lezione 6.md",
-    "Fondamenti di Telecomunicazioni/Lezione 2.md",
+    "Fondamenti di Telecomunicazioni/Lezione 7.md",
+    "Basi di Dati 1/Lezione 7(DN).md",
+    "Basi di Dati 1/Lezione 8(DN).md",
+    "Project Management/oppai.md",
+    "2022-10-14.md",
     "Fondamenti di Telecomunicazioni/Lezione 4.md",
-    "Fondamenti di Telecomunicazioni/Lezione 3.md",
-    "Basi di Dati 1/Lezione 4(DN).md",
-    "Basi di Dati 1/PDF/Lezione 3(P).pdf",
+    "Fondamenti di Telecomunicazioni/Lezione 6.md",
+    "Img/Decomposizione ERD.png",
     "Basi di Dati 1/Lezione 3(P).md",
-    "Fondamenti di Telecomunicazioni/Lezione 1.md"
+    "Basi di Dati 1/Lezione 4(DN).md"
   ]
 }
