@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a61fea355cfaa297",
+        "id": "33ae53927f952c86",
         "type": "tabs",
         "children": [
           {
-            "id": "74ccff840eadc78e",
+            "id": "51d34e12d3f90c5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Elettronica/Info del corso.md",
+                "file": "Basi di Dati 1/2022-10-17(DN).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Elettronica/Info del corso.md",
+                "file": "Basi di Dati 1/2022-10-17(DN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Elettronica/Info del corso.md",
+                "file": "Basi di Dati 1/2022-10-17(DN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Elettronica/Info del corso.md"
+                "file": "Basi di Dati 1/2022-10-17(DN).md"
               }
             }
           }
@@ -139,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "74ccff840eadc78e",
+  "active": "51d34e12d3f90c5e",
   "lastOpenFiles": [
-    "Fondamenti di Elettronica/02a Fondamenti di Elettronica - proprietà generali degli amplificatori_ez_20211005.pdf",
-    "Fondamenti di Elettronica/03 Fondamenti di Elettronica - amplificatore operazionale.pdf",
-    "Fondamenti di Elettronica/02b Fondamenti di Elettronica - modelli degli amplificatori.pdf",
-    "Fondamenti di Elettronica/Info del corso.md",
-    "Fondamenti di Telecomunicazioni/2022-10-17.md",
-    "Ce, Ve, Me, Oe.md",
-    "Fondamenti di Telecomunicazioni/Info del corso.md",
-    "Basi di Dati 1/2022-10-14(DN).md",
-    "Basi di Dati 1/2022-10-13(DN).md",
-    "Basi di Dati 1/2022-10-06(DN).md"
+    "Fondamenti di Elettronica/04  Fondamenti di Elettronica -  amplificatori differenziali con operazionale EZ  .pdf",
+    "Basi di Dati 1/2022-10-17(DN).md",
+    "Img/BDD--2022-10-17--03.png",
+    "Img/BDD--2022-10-17--02 1.png",
+    "Pasted image 20221017152611.png",
+    "Img/BDD--2022-10-17--01.png",
+    "Img/BDD--2022-10-03--02.png",
+    "Basi di Dati 1/Info del corso.md",
+    "Img/BDD--2022-10-17--02.png",
+    "Fondamenti di Elettronica/Info del corso.md"
   ]
 }
