@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-17.md",
+                "file": "Fondamenti di Elettronica/Info del corso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-17.md",
+                "file": "Fondamenti di Elettronica/Info del corso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-17.md",
+                "file": "Fondamenti di Elettronica/Info del corso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-17.md"
+                "file": "Fondamenti di Elettronica/Info del corso.md"
               }
             }
           }
@@ -141,15 +141,15 @@
   },
   "active": "74ccff840eadc78e",
   "lastOpenFiles": [
+    "Fondamenti di Elettronica/02a Fondamenti di Elettronica - proprietà generali degli amplificatori_ez_20211005.pdf",
+    "Fondamenti di Elettronica/03 Fondamenti di Elettronica - amplificatore operazionale.pdf",
+    "Fondamenti di Elettronica/02b Fondamenti di Elettronica - modelli degli amplificatori.pdf",
+    "Fondamenti di Elettronica/Info del corso.md",
+    "Fondamenti di Telecomunicazioni/2022-10-17.md",
+    "Ce, Ve, Me, Oe.md",
     "Fondamenti di Telecomunicazioni/Info del corso.md",
     "Basi di Dati 1/2022-10-14(DN).md",
     "Basi di Dati 1/2022-10-13(DN).md",
-    "Basi di Dati 1/2022-10-06(DN).md",
-    "Basi di Dati 1/2022-10-03(P).md",
-    "Basi di Dati 1/2022-09-30(DN).md",
-    "Basi di Dati 1/2022-09-29(P).md",
-    "Fondamenti di Telecomunicazioni/2022-10-17.md",
-    "Fondamenti di Telecomunicazioni/2022-10-13.md",
-    "Fondamenti di Telecomunicazioni/2022-10-11.md"
+    "Basi di Dati 1/2022-10-06(DN).md"
   ]
 }
