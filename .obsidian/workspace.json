@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6862f37dc8e2e40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basi di Dati 1/2022-10-20(DN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "26dd57515a9bb143",
             "type": "leaf",
             "state": {
@@ -32,19 +20,19 @@
             }
           },
           {
-            "id": "7e18855301180d1d",
+            "id": "bee5e3da8ae2d84d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md"
+                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md"
               }
             }
           }
@@ -164,17 +152,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c242f6f675b8f362",
+  "active": "bee5e3da8ae2d84d",
   "lastOpenFiles": [
-    "Basi di Dati 1/2022-10-20(DN).md",
+    "FDT--2022-10-21--03.png",
+    "Fondamenti di Telecomunicazioni/2022-10-21.md",
+    "FDT--2022-10-21--02.png",
+    "FDT--2022-10-21--01.png",
+    "Fondamenti di Telecomunicazioni/2022-10-13.md",
+    "Fondamenti di Telecomunicazioni/2022-10-17.md",
+    "Fondamenti di Telecomunicazioni/2022-10-20.md",
+    "Basi di Dati 1/PDF/2022-10-21(DN).pdf",
     "Basi di Dati 1/2022-10-17(DN).md",
-    "Fondamenti di Elettronica/04  Fondamenti di Elettronica -  amplificatori differenziali con operazionale EZ  .pdf",
-    "Img/BDD--2022-10-17--03.png",
-    "Img/BDD--2022-10-17--02 1.png",
-    "Pasted image 20221017152611.png",
-    "Img/BDD--2022-10-17--01.png",
-    "Img/BDD--2022-10-03--02.png",
-    "Basi di Dati 1/Info del corso.md",
-    "Img/BDD--2022-10-17--02.png"
+    "Basi di Dati 1/2022-10-20(DN).md"
   ]
 }
