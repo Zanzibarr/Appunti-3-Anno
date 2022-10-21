@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e18855301180d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md",
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md",
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md"
+                "file": "Basi di Dati 1/2022-10-21(DN).md"
               }
             }
           }
