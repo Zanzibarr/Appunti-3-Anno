@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-21.md"
+                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md"
               }
             }
           }
@@ -154,15 +154,15 @@
   },
   "active": "bee5e3da8ae2d84d",
   "lastOpenFiles": [
-    "FDT--2022-10-21--03.png",
-    "Fondamenti di Telecomunicazioni/2022-10-21.md",
-    "FDT--2022-10-21--02.png",
-    "FDT--2022-10-21--01.png",
-    "Fondamenti di Telecomunicazioni/2022-10-13.md",
+    "Basi di Dati 1/2022-10-03(P).md",
+    "Basi di Dati 1/2022-10-13(DN).md",
     "Fondamenti di Telecomunicazioni/2022-10-17.md",
     "Fondamenti di Telecomunicazioni/2022-10-20.md",
-    "Basi di Dati 1/PDF/2022-10-21(DN).pdf",
-    "Basi di Dati 1/2022-10-17(DN).md",
-    "Basi di Dati 1/2022-10-20(DN).md"
+    "Fondamenti di Telecomunicazioni/2022-10-21.md",
+    "Fondamenti di Telecomunicazioni/2022-10-03.md",
+    "Fondamenti di Telecomunicazioni/2022-10-13.md",
+    "Basi di Dati 1/2022-10-20(DN).md",
+    "Basi di Dati 1/2022-10-21(DN).md",
+    "Img/FDT--2022-10-21--01.png"
   ]
 }
