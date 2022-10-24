@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bee5e3da8ae2d84d",
+            "id": "4f79d4d34ea30d70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-03.md"
+                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md"
               }
             }
           }
@@ -152,17 +151,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bee5e3da8ae2d84d",
+  "active": "26dd57515a9bb143",
   "lastOpenFiles": [
-    "Basi di Dati 1/2022-10-03(P).md",
-    "Basi di Dati 1/2022-10-13(DN).md",
     "Fondamenti di Telecomunicazioni/2022-10-17.md",
+    "Fondamenti di Telecomunicazioni/2022-10-13.md",
     "Fondamenti di Telecomunicazioni/2022-10-20.md",
     "Fondamenti di Telecomunicazioni/2022-10-21.md",
+    "Fondamenti di Telecomunicazioni/2022-10-24.md",
+    "Fondamenti di Telecomunicazioni/PDF/2022-10-24.pdf",
+    "Fondamenti di Telecomunicazioni/2022-09-29.md",
     "Fondamenti di Telecomunicazioni/2022-10-03.md",
-    "Fondamenti di Telecomunicazioni/2022-10-13.md",
-    "Basi di Dati 1/2022-10-20(DN).md",
-    "Basi di Dati 1/2022-10-21(DN).md",
-    "Img/FDT--2022-10-21--01.png"
+    "Fondamenti di Telecomunicazioni/PDF/2022-10-21.pdf",
+    "Basi di Dati 1/2022-10-03(P).md"
   ]
 }
