@@ -4,34 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "33ae53927f952c86",
+        "id": "fc1431650178edde",
         "type": "tabs",
         "children": [
           {
-            "id": "26dd57515a9bb143",
+            "id": "53b5b931b0af46c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Basi di Dati 1/Il linguaggio SQL.pdf"
+              }
+            }
+          },
+          {
+            "id": "9d64fade92cfa8cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4f79d4d34ea30d70",
+            "id": "5bb289652c548203",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-20.md",
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\quad",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md",
+                "file": "Basi di Dati 1/2022-10-21(DN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-13.md"
+                "file": "Basi di Dati 1/2022-10-21(DN).md"
               }
             }
           }
@@ -148,20 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "26dd57515a9bb143",
+  "active": "5bb289652c548203",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/2022-10-17.md",
+    "Fondamenti di Telecomunicazioni/2022-10-27.md",
     "Fondamenti di Telecomunicazioni/2022-10-13.md",
     "Fondamenti di Telecomunicazioni/2022-10-20.md",
+    "Fondamenti di Telecomunicazioni/2022-10-17.md",
     "Fondamenti di Telecomunicazioni/2022-10-21.md",
     "Fondamenti di Telecomunicazioni/2022-10-24.md",
-    "Fondamenti di Telecomunicazioni/PDF/2022-10-24.pdf",
-    "Fondamenti di Telecomunicazioni/2022-09-29.md",
-    "Fondamenti di Telecomunicazioni/2022-10-03.md",
-    "Fondamenti di Telecomunicazioni/PDF/2022-10-21.pdf",
-    "Basi di Dati 1/2022-10-03(P).md"
+    "Fondamenti di Telecomunicazioni/2022-10-25.md",
+    "Basi di Dati 1/Il linguaggio SQL.pdf",
+    "Basi di Dati 1/2022-10-21(DN).md",
+    "Basi di Dati 1/2022-10-20(DN).md"
   ]
 }
