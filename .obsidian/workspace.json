@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "pasted",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
+                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md"
+                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "5bb289652c548203",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/2022-10-27.md",
-    "Fondamenti di Telecomunicazioni/2022-10-13.md",
-    "Fondamenti di Telecomunicazioni/2022-10-20.md",
     "Fondamenti di Telecomunicazioni/2022-10-17.md",
-    "Fondamenti di Telecomunicazioni/2022-10-21.md",
-    "Fondamenti di Telecomunicazioni/2022-10-24.md",
+    "Fondamenti di Telecomunicazioni/2022-10-27.md",
     "Fondamenti di Telecomunicazioni/2022-10-25.md",
-    "Basi di Dati 1/Il linguaggio SQL.pdf",
-    "Basi di Dati 1/2022-10-21(DN).md",
-    "Basi di Dati 1/2022-10-20(DN).md"
+    "Fondamenti di Telecomunicazioni/2022-10-24.md",
+    "Fondamenti di Telecomunicazioni/2022-10-20.md",
+    "Fondamenti di Telecomunicazioni/2022-10-21.md",
+    "Pasted image 20221102143028.png",
+    "Img/FDT--2022-10-27--01 1.png",
+    "Img/FDT--2022-10-27--01.png",
+    "Img/FDT--2022-10-25--02.png"
   ]
 }
