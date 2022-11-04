@@ -4,69 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1431650178edde",
+        "id": "bf056e9f664dd8f4",
         "type": "tabs",
         "children": [
           {
-            "id": "53b5b931b0af46c7",
+            "id": "c1b68b8dc5adb6fa",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Basi di Dati 1/Il linguaggio SQL.pdf"
-              }
-            }
-          },
-          {
-            "id": "9d64fade92cfa8cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-10-25.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bb289652c548203",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basi di Dati 1/2022-10-21(DN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b8cf33d12a28ac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basi di Dati 1/2022-11-03(DN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1d972ed778f4c28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-03.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pasted",
+                "query": "\\quad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-03.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a1d972ed778f4c28",
+  "active": "c1b68b8dc5adb6fa",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/2022-10-27.md",
-    "Fondamenti di Telecomunicazioni/2022-11-03.md",
+    "Basi di Dati 1/2022-11-04(DN).md",
     "Basi di Dati 1/2022-11-03(DN).md",
-    "Basi di Dati 1/2022-10-17(DN).md",
-    "Img/BDD--2022-10-17--02.png",
-    "Basi di Dati 1/PDF/2022-10-17(DN).pdf",
-    "Img/BDD--2022-11-03--01.png",
-    "Pasted image 20221103094951.png",
-    "Basi di Dati 1/2022-10-21(DN).md",
-    "Fondamenti di Telecomunicazioni/2022-10-25.md"
+    "Basi di Dati 1/Lezione 8(DN).md",
+    "Fondamenti di Telecomunicazioni/Lezione 7.md",
+    "Img/s1 e s2 002.png",
+    "Img/A triang(t-t0 su B mezzi).png",
+    "Img/s1 e s2 001.png",
+    "Pasted image 20221014154231.png",
+    "Img/triang z e quadrato.png",
+    "Fondamenti di Telecomunicazioni/Lezione 6.md"
   ]
 }
