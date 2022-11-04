@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
