@@ -11,8 +11,12 @@
             "id": "c1b68b8dc5adb6fa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md"
+              }
             }
           }
         ]
@@ -130,6 +138,8 @@
   },
   "active": "c1b68b8dc5adb6fa",
   "lastOpenFiles": [
+    "Fondamenti di Telecomunicazioni/2022-11-03.md",
+    "Fondamenti di Telecomunicazioni/2022-11-08.md",
     "Basi di Dati 1/2022-11-04(DN).md",
     "Basi di Dati 1/2022-11-03(DN).md",
     "Basi di Dati 1/Lezione 8(DN).md",
@@ -137,8 +147,6 @@
     "Img/s1 e s2 002.png",
     "Img/A triang(t-t0 su B mezzi).png",
     "Img/s1 e s2 001.png",
-    "Pasted image 20221014154231.png",
-    "Img/triang z e quadrato.png",
-    "Fondamenti di Telecomunicazioni/Lezione 6.md"
+    "Pasted image 20221014154231.png"
   ]
 }
