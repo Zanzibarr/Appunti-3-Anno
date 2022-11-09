@@ -11,11 +11,9 @@
             "id": "c1b68b8dc5adb6fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Basi di Dati 1/2022-11-03(DN).md",
-                "mode": "source",
-                "source": false
+                "file": "Img/FDT--2022-11-03--01.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basi di Dati 1/2022-11-03(DN).md",
+                "file": "Img/FDT--2022-11-03--01.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basi di Dati 1/2022-11-03(DN).md",
+                "file": "Img/FDT--2022-11-03--01.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basi di Dati 1/2022-11-03(DN).md"
+                "file": "Img/FDT--2022-11-03--01.png"
               }
             }
           }
@@ -136,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1b68b8dc5adb6fa",
+  "active": "c242f6f675b8f362",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/2022-11-08.md",
     "Fondamenti di Telecomunicazioni/2022-11-03.md",
+    "Img/FDT--2022-11-03--01.png",
+    "Basi di Dati 1/2022-11-03(DN).md",
+    "Fondamenti di Telecomunicazioni/2022-11-08.md",
     "Img/FDT--2022-11-08--01.png",
     "Img/FDT--2022-11-08--05.png",
     "Img/FDT--2022-11-08--04.png",
     "Img/FDT--2022-11-08--03.png",
     "Img/FDT--2022-11-08--02.png",
-    "Fondamenti di Telecomunicazioni/2022-10-13.md",
-    "Fondamenti di Telecomunicazioni/2022-10-17.md",
-    "Fondamenti di Telecomunicazioni/2022-10-04.md"
+    "Fondamenti di Telecomunicazioni/2022-10-13.md"
   ]
 }
