@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
+                "file": "Basi di Dati 1/2022-11-03(DN).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\quad",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
+                "file": "Basi di Dati 1/2022-11-03(DN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md",
+                "file": "Basi di Dati 1/2022-11-03(DN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di Telecomunicazioni/2022-11-08.md"
+                "file": "Basi di Dati 1/2022-11-03(DN).md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "c1b68b8dc5adb6fa",
   "lastOpenFiles": [
-    "Fondamenti di Telecomunicazioni/2022-11-03.md",
     "Fondamenti di Telecomunicazioni/2022-11-08.md",
-    "Basi di Dati 1/2022-11-04(DN).md",
-    "Basi di Dati 1/2022-11-03(DN).md",
-    "Basi di Dati 1/Lezione 8(DN).md",
-    "Fondamenti di Telecomunicazioni/Lezione 7.md",
-    "Img/s1 e s2 002.png",
-    "Img/A triang(t-t0 su B mezzi).png",
-    "Img/s1 e s2 001.png",
-    "Pasted image 20221014154231.png"
+    "Fondamenti di Telecomunicazioni/2022-11-03.md",
+    "Img/FDT--2022-11-08--01.png",
+    "Img/FDT--2022-11-08--05.png",
+    "Img/FDT--2022-11-08--04.png",
+    "Img/FDT--2022-11-08--03.png",
+    "Img/FDT--2022-11-08--02.png",
+    "Fondamenti di Telecomunicazioni/2022-10-13.md",
+    "Fondamenti di Telecomunicazioni/2022-10-17.md",
+    "Fondamenti di Telecomunicazioni/2022-10-04.md"
   ]
 }
