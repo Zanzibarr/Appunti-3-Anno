@@ -965,8 +965,10 @@ Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esi
 	\item Un codice di canale con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_c}\rceil$
 	\item Un decodificatore per il codice tali che la probabilità di errore sulla parola di codice è minore di $\delta$
 \end{enumerate}
+Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a blocco (n,k); si ha quindi che $$\frac{k}{n}=RT_c<CT_c$$
 
-
+\subsubsection{Converse}
+Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$
 
 
 
