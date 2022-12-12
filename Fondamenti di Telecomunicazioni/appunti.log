@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  12 DEC 2022 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  12 DEC 2022 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,7 +732,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 881--883
  []
 
 
-Overfull \hbox (3.69395pt too wide) in paragraph at lines 895--896
+Overfull \hbox (2.80634pt too wide) in paragraph at lines 886--889
+\OT1/cmr/m/n/10 L'entropia mi rap-p-re-senta l'informazione me-dia por-tata dal
+l'informazione, quindi
+ []
+
+
+Overfull \hbox (3.69395pt too wide) in paragraph at lines 897--898
 \OT1/cmr/m/n/10 Una fun-zione $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it
 /10 x\OT1/cmr/m/n/10 )$ ^^Re stret-ta-mente con-cava, dati $\OML/cmm/m/it/10 k[
 ]; :::; k[] \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 0$, tali che $[][] \OML/cmm/m/
@@ -740,26 +746,35 @@ it/10 k[] \OT1/cmr/m/n/10 =
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 908--911
+Underfull \hbox (badness 10000) in paragraph at lines 910--913
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 928--932
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 \end{align*}
+                  $$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 961--963
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 934--936
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 944--945
-
- []
-
-[26] [27] [28] (./appunti.aux) ) 
+[27] [28] (./appunti.aux) ) 
 Here is how much of TeX's memory you used:
  23673 strings out of 480171
  623900 string characters out of 5894488
@@ -768,20 +783,20 @@ Here is how much of TeX's memory you used:
  475278 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  100i,14n,104p,1030b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb>
-Output written on appunti.pdf (28 pages, 253541 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb>
+Output written on appunti.pdf (28 pages, 255108 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams

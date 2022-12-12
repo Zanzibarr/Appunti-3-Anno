@@ -884,6 +884,8 @@ Noto quindi che la funzione informazione non mi serve per calcolare l'informazio
 \subsection{Entropia di una variabile aleatoria}
 Data una v.a. discreta $X$, l'entropia di $X$ è definita come l'\textbf{informazione media} di $X$:
 $$H(x)=E[i_x(x)]=\sum_{a\in A_x}p_x(a)\log_2(\frac{1}{p_x(a)})$$
+L'entropia mi rappresenta l'informazione media portata dall'informazione, quindi la novità portata dalla realizzazione di un determinato evento.\\
+Un altro modo per vedere l'entropia è che l'entropia mi rappresenta l'incertezza complessiva sulla variabile aleatoria.
 
 \subsubsection{Proprietà dell'entropia}
 \begin{enumerate}
@@ -915,22 +917,47 @@ La disequazione vale solo se i valori di $p_x(x)$ sono distinti tra loro.\\
 Se $X$ è uniforme nell'alfabeto ($p_x(a)=\frac{1}{M}).$
 $$H(X)=E[\log_2(\frac{1}{p_x(x)})]=\sum_{a\in A_x}\frac{1}{M}\log_2(\frac{1}{\frac{1}{M}})=\frac{1}{M}\sum_{m=1}^M\log_2(M)=\log_2(M)$$
 
-\newpage
-\section{Vettori aleatori}
-Un vettore aleatorio di lunghezza N $\underline{x}=[x_1,...,x_N],\; n\in[1,N]$ con $x_n$ variabile aleatoria discreta con alfabeto $A_n$ $\underline{x_n}\in A_1\times ...\times A_N=A$\\
-La densità di probabilità del vettore aleatorio $p_{\underline{x}}(\underline{a})=P(\underline{x}=\underline{a}),\quad \underline{a}\in A$
+\subsection{Vettori aleatori}
+Un vettore aleatorio di lunghezza N $\underline{X}=[X_1,...,X_N],\; n\in[1,N]$ con $X_n$ variabile aleatoria discreta con alfabeto $A_n$, $\underline{X_n}\in A_1\times ...\times A_N=A$.\\
+La densità di probabilità del vettore aleatorio $p_{\underline{x}}(\underline{a})=P(\underline{X}=\underline{a}),\quad \underline{a}\in A$
 
 \subsection{Funzione informazione per un vettore aleatorio}
+Definito quindi il vettore aleatorio, abbiamo che la funzione informazione, per un vettore aleatorio, è:
 $$i_{\underline{x}}(\underline{a})=\log_2\Big(\frac{1}{p_{\underline{x}}(\underline{a})}\Big)$$
 
+\subsection{Entropia di una variabile aleatoria}
+L'entropia di un vettore aleatorio, come per una variabile aleatoria discreta, è $$\underline{H}(\underline{X})=E\big[i_{\underline{x}}(\underline{X})]\big]=\sum_{\underline{a}\in A}p_{\underline{x}}(\underline{a})\log_2\big(\frac{1}{p_{\underline{x}}(\underline{a})}\big)$$
+
 \subsection{Entropia di più variabili aleatorie}
-Consideriamo due v.a. $X$ $Y$, se $Y$ è funzione deterministica di $X$, allora
-$$H(X, Y)=H(X)$$
-Chiaramente se $X$ è una v.a., anche $f(X)$ lo è\\\\
+Consideriamo due v.a. $\underline{X}$ $\underline{Y}$.\\
+Se $\underline{Y}$ è funzione deterministica di $\underline{X}$, allora
+$$H(\underline{X}, \underline{Y})=H(\underline{X})$$
+Dim:
+$$\begin{align*}
+	H(\underline{X},\underline{Y})
+	&=\sum_{\underline{a}\in[a_1,a_2]}p_{x,y}(a_1,a_2)\log_2\big(\frac{1}{p_{x,y}(a_1,a_2)}\big)\\
+	&=\sum_{a_1\in A_x}p_{x,y}(a_1,f(a_1))\log_2\big(\frac{1}{p_{x,y}(a_1,f(a_1))}\big)\\
+	&=\sum_{a_1\in A_x}p_x(a_1)\log_2\big(\frac{1}{p_x(a_1)}\big)\\
+	&=H(\underline{X})
+\end{align*}$$
+
 TODO RECUPERO APPUNTI DELLA LEZIONE 06/12\\
 TODO LEZIONE 07/12
 
-\subsection{Canale numerico M-ario senza memoria}
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Canale numerico M-ario senza memoria}
 Indichiamo con $T_c$ il tempo di simbolo del canale.\\
 Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$,ed essendo senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
 
