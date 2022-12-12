@@ -932,8 +932,7 @@ TODO LEZIONE 07/12
 
 \subsection{Canale numerico M-ario senza memoria}
 Indichiamo con $T_c$ il tempo di simbolo del canale.\\
-Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$.\\
-Essendo un canale senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
+Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$,ed essendo senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
 
 \subsubsection{Descrizione del canale attraverso una matrice di probabilità di transizione}
 $$P(y_n=a|x_n=b)=\left(\;\begin{array}{ccc}
@@ -942,24 +941,24 @@ $$P(y_n=a|x_n=b)=\left(\;\begin{array}{ccc}
 	P(M,1)&\cdot&P(M,M)
 \end{array}\;\right)$$
 
-Sommando le righe della matrice ottengo, a patto che ogni simbolo sia trasmesso con la stessa probabilità, $P_{y_n}(i)$; sommando le colonne della matrice ottengo invece 1.\\
+Sommando i valori della colonna $i$ della matrice, a patto che ogni simbolo sia trasmesso con la stessa probabilità, ottengo $P_{y_n}(i)$; sommando le colonne della matrice, invece, ottengo 1.\\
 
 \subsubsection{Tasso di informazione del canale}
-Definiamo $\mathcal{G}$ un canale numerico M-ario senza memoria (con probabilità di transizione $P(y_n|x_n)$.\\
+Definiamo $\mathcal{G}$ un canale numerico M-ario senza memoria, con probabilità di transizione $P(y_n|x_n)$.\\
 Il tasso di informazione di $\mathcal{G}$ è (per una certa statistica della sorgente) 
 $$R(\mathcal{G})=\frac{1}{T_c}I_s(\underline{x};\underline{y})=\frac{1}{T_c}\big[H_s(\underline{x})+H_s(\underline{y})-H_s(\underline{x},\underline{y})\big]\qquad[bit/s]$$
-Se $x_n$ e $y_n$ sono indipendenti in $n$ e identicamente distribuiti:
-$$R(\mathcal{G})=\frac{1}{T_c}I(x_n;y_n)$$
+Se $x_n$ e $y_n$ sono indipendenti ((in $n$) e identicamente distribuiti:
+$$R(\mathcal{G})=\frac{1}{T_c}I_s(x_n;y_n)$$
 Per esempio, nel caso in cui abbiamo $y_n=x_n$, la matrice di probabilità di transizione è uguale alla matrice identità; il tasso di informazione del canale vale $R(\mathcal{G})=\frac{1}{T_c}H(x_n)$.\\
 In generale, per un canale qualsiasi, poichè $I_s(\underline{x};\underline{y})\leq H_s(\underline{x})$, avremo che $$R(\mathcal{G})=\frac{I_s(\underline{x};\underline{y})}{T_c}\leq\frac{H_s(\underline{x})}{T_c}$$
 
 \subsubsection{Capacità di un canale numerico M-ario senza memoria}
-La capacità del canale è il massimo tasso di informazione del canale tra tutti quelli ottenuti usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)$$
+La capacità del canale è il massimo tasso di informazione del canale tra tutti quelli ottenuti, usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)$$
 Nell'esempio di prima ($y_n=x_n$), la capacità è $$C=\frac{\log_2(M)}{T_c}$$ (ottenuta con $x_n$ a valori equiprobabili nell'alfabeto M-ario)
 
 \subsection{Teorema di Shannon per la codifica di canale}
 Consideriamo un canale M-ario numerico senza memoria con periodo di simbolo $T_c$ e capacità C.\\
-Sia $\{b_{\mathcal{C}}\}$una sorgente con tasso di informazione del messaggio nominale $R$.\\
+Sia $\{b_{\mathcal{C}}\}$ una sorgente con tasso di informazione del messaggio nominale $R$.\\
 Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esistono:
 \begin{enumerate}
 	\item Un codice di canale con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_c}\rceil$
@@ -968,7 +967,7 @@ Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esi
 Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a blocco (n,k); si ha quindi che $$\frac{k}{n}=RT_c<CT_c$$
 
 \subsubsection{Converse}
-Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$
+Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$.
 
 
 
