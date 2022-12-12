@@ -959,10 +959,10 @@ Nell'esempio di prima ($y_n=x_n$), la capacità è $$C=\frac{\log_2(M)}{T_c}$$ (
 
 \subsection{Teorema di Shannon per la codifica di canale}
 Consideriamo un canale M-ario numerico senza memoria con periodo di simbolo $T_c$ e capacità C.\\
-Sia $\{b_l\}$una sorgente con tasso di informazione del messaggio nominale $R$.\\
+Sia $\{b_{\mathcal{C}}\}$una sorgente con tasso di informazione del messaggio nominale $R$.\\
 Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esistono:
 \begin{enumerate}
-	\item Un codice di canale con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_x}\rceil$
+	\item Un codice di canale con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_c}\rceil$
 	\item Un decodificatore per il codice tali che la probabilità di errore sulla parola di codice è minore di $\delta$
 \end{enumerate}
 
