@@ -930,16 +930,18 @@ L'entropia di un vettore aleatorio, come per una variabile aleatoria discreta, �
 
 \subsection{Entropia di più variabili aleatorie}
 Consideriamo due v.a. $\underline{X}$ $\underline{Y}$.\\
-Se $\underline{Y}$ è funzione deterministica di $\underline{X}$, allora
-$$H(\underline{X}, \underline{Y})=H(\underline{X})$$
-Dim:
-$$\begin{align*}
-	H(\underline{X},\underline{Y})
-	&=\sum_{\underline{a}\in[a_1,a_2]}p_{x,y}(a_1,a_2)\log_2\big(\frac{1}{p_{x,y}(a_1,a_2)}\big)\\
-	&=\sum_{a_1\in A_x}p_{x,y}(a_1,f(a_1))\log_2\big(\frac{1}{p_{x,y}(a_1,f(a_1))}\big)\\
-	&=\sum_{a_1\in A_x}p_x(a_1)\log_2\big(\frac{1}{p_x(a_1)}\big)\\
-	&=H(\underline{X})
-\end{align*}$$
+\begin{enumerate}
+	\item Se $\underline{X}$ e $\underline{Y}$ sono \textbf{indipendenti}: $$H(\underline{X},\underline{Y})=E\big[i_{x,y}(\underline{X},\underline{Y})\big]=E\big[i_x(a)+i_y(b)\big]=H(\underline{X})+H(\underline{Y})$$
+	\item Se $\underline{X}$ e $\underline{Y}$ \textbf{non sono indipendenti}: $$H(\underline{X},\underline{Y})<H(\underline{X})+H(\underline{Y})$$
+	\item Se $f(\underline{X})=\underline{Y}$ è \textbf{funzione deterministica}: $$H(\underline{X}, \underline{Y})=H(\underline{X})$$
+	La cosa tuttavia non ci sorprende in quanto l'entropia esprime l'incertezza sulla coppia, e essendo $\underline{Y}$ funzione deterministica di $\underline{X}$, l'incertezza della coppia è quella di $\underline{X}$.\\
+	Attenzione che non vale in generale il contrario, ovvero $$H(\underline{X},\underline{Y})\neq H(\underline{Y})$$
+	\item Se $\underline{Y}$ \textbf{non è funzione deterministica} di $\underline{X}$: $$H(\underline{X},\underline{Y})>H(\underline{X})$$	
+	\item Se $f(\underline{X})=\underline{Y}$ è \textbf{funzione iniettiva}, la densità di probabilità di $\underline{X}$ è la stessa di $\underline{Y}$ a meno di una modifica dell'alfabeto: $$H(\underline{X})=H(\underline{Y})=H(\underline{X},\underline{Y})$$
+\end{enumerate}
+Volendo raccogliere tutte le diseguaglianze ricavate, abbiamo la seguente catena:
+$$0\leq max\{H(\underline{X},\underline{Y})\}\leq H(\underline{X},\underline{Y})\leq H(\underline{X}+\underline{Y})$$
+
 
 TODO RECUPERO APPUNTI DELLA LEZIONE 06/12 MINUTO 52\\
 TODO LEZIONE 07/12
