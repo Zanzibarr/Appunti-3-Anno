@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  13 DEC 2022 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  13 DEC 2022 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -755,17 +755,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 932--933
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 943--945
+
+ []
+
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 963--965
+Overfull \hbox (4.19505pt too wide) in paragraph at lines 953--955
+\OT1/cmr/m/n/10 Il nos-tro scopo ^^Re quello di scri-vere l'entropia con-dizion
+-ata in fun-zione dell'entropia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--965
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--974
+Underfull \hbox (badness 10000) in paragraph at lines 967--969
 
  []
 
-[27] [28] (./appunti.aux) ) 
+[27]
+Overfull \hbox (7.12035pt too wide) in paragraph at lines 973--974
+\OT1/cmr/m/n/10 Se gli el-e-menti del vet-tore aleato-rio $[]$ sono \OT1/cmr/bx
+/n/10 iden-ti-ca-mente dis-tribuiti \OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 p[]\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ) =
+ []
+
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+
+ []
+
+[30] [31] (./appunti.aux) ) 
 Here is how much of TeX's memory you used:
  23673 strings out of 480171
  623900 string characters out of 5894488
@@ -787,10 +815,10 @@ onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb>
-Output written on appunti.pdf (28 pages, 255991 bytes).
+Output written on appunti.pdf (31 pages, 262465 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

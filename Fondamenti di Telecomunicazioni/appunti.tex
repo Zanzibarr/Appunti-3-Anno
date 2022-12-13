@@ -926,30 +926,71 @@ Definito quindi il vettore aleatorio, abbiamo che la funzione informazione, per 
 $$i_{\underline{x}}(\underline{a})=\log_2\Big(\frac{1}{p_{\underline{x}}(\underline{a})}\Big)$$
 
 \subsection{Entropia di una variabile aleatoria}
-L'entropia di un vettore aleatorio, come per una variabile aleatoria discreta, è $$\underline{H}(\underline{X})=E\big[i_{\underline{x}}(\underline{X})]\big]=\sum_{\underline{a}\in A}p_{\underline{x}}(\underline{a})\log_2\big(\frac{1}{p_{\underline{x}}(\underline{a})}\big)$$
+L'entropia di un vettore aleatorio, come per una variabile aleatoria discreta, è $$H(X)=E\big[i_{x}(X)]\big]=\sum_{{a}\in A}p_{{x}}({a})\log_2\big(\frac{1}{p_{{x}}({a})}\big)$$
 
 \subsection{Entropia di più variabili aleatorie}
-Consideriamo due v.a. $\underline{X}$ $\underline{Y}$.\\
+Consideriamo due v.a. ${X}$ ${Y}$.\\
 \begin{enumerate}
-	\item Se $\underline{X}$ e $\underline{Y}$ sono \textbf{indipendenti}: $$H(\underline{X},\underline{Y})=E\big[i_{x,y}(\underline{X},\underline{Y})\big]=E\big[i_x(a)+i_y(b)\big]=H(\underline{X})+H(\underline{Y})$$
-	\item Se $\underline{X}$ e $\underline{Y}$ \textbf{non sono indipendenti}: $$H(\underline{X},\underline{Y})<H(\underline{X})+H(\underline{Y})$$
-	\item Se $f(\underline{X})=\underline{Y}$ è \textbf{funzione deterministica}: $$H(\underline{X}, \underline{Y})=H(\underline{X})$$
-	La cosa tuttavia non ci sorprende in quanto l'entropia esprime l'incertezza sulla coppia, e essendo $\underline{Y}$ funzione deterministica di $\underline{X}$, l'incertezza della coppia è quella di $\underline{X}$.\\
-	Attenzione che non vale in generale il contrario, ovvero $$H(\underline{X},\underline{Y})\neq H(\underline{Y})$$
-	\item Se $\underline{Y}$ \textbf{non è funzione deterministica} di $\underline{X}$: $$H(\underline{X},\underline{Y})>H(\underline{X})$$	
-	\item Se $f(\underline{X})=\underline{Y}$ è \textbf{funzione iniettiva}, la densità di probabilità di $\underline{X}$ è la stessa di $\underline{Y}$ a meno di una modifica dell'alfabeto: $$H(\underline{X})=H(\underline{Y})=H(\underline{X},\underline{Y})$$
+	\item Se ${X}$ e ${Y}$ sono \textbf{indipendenti}: $$H({X},{Y})=E\big[i_{x,y}({X},{Y})\big]=E\big[i_x(a)+i_y(b)\big]=H({X})+H({Y})$$
+	\item Se ${X}$ e ${Y}$ \textbf{non sono indipendenti}: $$H({X},{Y})<H({X})+H({Y})$$
+	\item Se $f({X})={Y}$ è \textbf{funzione deterministica}: $$H({X}, {Y})=H({X})$$
+	La cosa tuttavia non ci sorprende in quanto l'entropia esprime l'incertezza sulla coppia, e essendo ${Y}$ funzione deterministica di ${X}$, l'incertezza della coppia è quella di ${X}$.\\
+	Attenzione che non vale in generale il contrario, ovvero $$H({X},{Y})\neq H({Y})$$
+	\item Se ${Y}$ \textbf{non è funzione deterministica} di ${X}$: $$H({X},{Y})>H({X})$$	
+	\item Se $f({X})={Y}$ è \textbf{funzione iniettiva}, la densità di probabilità di ${X}$ è la stessa di ${Y}$ a meno di una modifica dell'alfabeto: $$H({X})=H({Y})=H({X},{Y})$$
 \end{enumerate}
 Volendo raccogliere tutte le diseguaglianze ricavate, abbiamo la seguente catena:
-$$0\leq max\{H(\underline{X},\underline{Y})\}\leq H(\underline{X},\underline{Y})\leq H(\underline{X}+\underline{Y})$$
+$$0\leq max\{H({X},{Y})\}\leq H({X},{Y})\leq H({X}+{Y})$$
+Vale sempre che $H({X},{Y})=H({Y},{X})$.\\
 
+\subsubsection{Variabili aleatorie condizionate}
+Data la v.a. $X$ condizionata alla variabile aleatoria $Y$ con densità di probabilità condizionata $p_{x|y}(a|b)=P(X=a|Y=b)$, definiamo la funzione informazione condizionata come
+$$i_{x|y}(a|b)=\log_2\big(\frac{1}{p_{x|y}(a|b)}\big)$$
+\textbf{Entropia condizionata ad un certo valore di $y$}: $$H(X|Y=b)=\sum_{a\in A_x}p_{x|y}(a|b)\log_2\big(\frac{1}{p_{x|y}(a|b)}\big)$$
+In generale
+$$H(X|Y)=E_y\big[H(X|Y=y)\big]=\sum_bp_y(b)H(X|Y=b)$$
+Sviluppando i calcoli nella sommatoria, otteniamo un tipo di entropia diversa dal solito:
+$$H(X|Y)=\sum_{a,b}p_{x,y}(a,b)\log_2\big(\frac{1}{p_{x|y}(a|b)}\big)$$
+Il nostro scopo è quello di scrivere l'entropia condizionata in funzione dell'entropia congiunta... sviluppando i calcoli nella sommatoria, si ottiene:
+$$H(X,Y)=H(X|Y)+H(Y)$$
+Questa conclusione si poteva ricavare anche dalla relazione tra probabilità congiunta e probabilità condizionata, in quanto l'entropia è una funzione logaritmica e trasforma i prodotti in somme.
 
-TODO RECUPERO APPUNTI DELLA LEZIONE 06/12 MINUTO 52\\
-TODO LEZIONE 07/12
+\subsection{Informazione mutua tra due variabili aleatorie}
+$$I(X;Y)=I(Y;X)=H(X)+H(Y)-H(X,Y)$$
+Dalla relazione trovata tra entropia condizionata e congiunta possiamo semplificare la formula dell'informazione mutua:
+$$I(X;Y)=H(X)-H(X|Y)=H(Y)-H(Y|X)$$
+A livello logico, sto togliendo dall'informazione che mi porta $X$, l'informazione su $X$ che già sapevo data l'informazione $Y$.\\
+$H(X|Y)$ misura \textbf{quanto non so di x dopo che ho visto y}.\\
+$I(X;Y)$ misura \textbf{quando so di x dopo aver visto y}.\\
 
+\subsubsection{Valori assunti dalla mutua informazione}
+$$I()X;Y)=H(X)+H(Y)-H(X,Y)\geq0$$
+In quanto sappiamo che l'entropia congiunta vale meno della somma delle entropie di $X$ e $Y$ (è impossibile avere un'informazione nulla, l'informazione o esiste (>0) o non esiste (=0)).\\
+$$I(X;Y)=H(X)-H(X|Y)\leq min\{H(X),H(Y)\}$$
+Si ha quindi che $$0\leq I(X;Y)\leq min\{H(X),H(Y)\}$$
 
+\subsection{Entropia per simbolo di un vettore aleatorio}
+Dato un vettore aleatorio $\underline{X}=[X_1,...,X_N]$, l'entropia per simbolo del vettore è $$H_s(\underline{X})=\frac{1}{N}H(\underline{X})$$
+Se gli elementi del vettore aleatorio $\underline{X}$ sono \textbf{identicamente distribuiti} ($p_{X_i}(a)=p_{X_j}(a),\;\forall i$), abbiamo che l'entropia per simbolo coincide con l'entropia del vettore aleatorio $$H_s(\underline{X})=\frac{1}{N}H(\underline{X})=H(X)$$
+dato che, in quanto identicamente distribuiti, $H(\underline{X})=NH(X)$.
 
+\subsection{Informazione mutua per simbolo}
+$$I_s(\underline{X};\underline{Y})=H_s(\underline{X})+H_s(\underline{Y})-H_s(\underline{X},\underline{Y})$$
 
+\subsection{Sorgente di simboli}
+Se abbiamo una sorgente che in un tempo infinito genera un numero infinito di simboli, abbiamo un vettore aleatorio $\underline{X}=[...,X_{-1},X_0,X_1,...]$ di dimensione infinita.\\
+L'entropia di solito è infinita in tutto il vettore, se questo è infinitamente lungo; l'entropia per simbolo invece sarà $$H_s(\underline{X})=\lim_{N\to\infty}\frac{1}{2N+1}H(\underline{X}=[X_{-N},...,X_N])$$
 
+\subsection{Tasso di informazione di un messaggio}
+Una sorgente genera simboli $X_i$ ad intervalli di tempo $T=$periodo di simbolo.\\
+Il tasso di informazione (information rate) del messaggio generato dalla sorgente è $$R(\underline{X})=\frac{H_s(\underline{X})}{T}\qquad[bit/s]$$
+
+\subsection{Tasso nominale del messaggio}
+Il tasso nominale del messaggio con $X_i\in A$ con $A$ di cardinalità $M$ è $$\frac{\log_2(M)}{T}$$
+
+Il tasso di informazione di un messaggio mi dice \textbf{quanta informazione viene generata dalla sorgente al secondo}, mentre il tasso nominale del messaggio mi dice semplicemente \textbf{quanti bit vengono trasmessi} (non per forza contenenti informazione $i=0$).\\
+Ovviamente il tasso nominale del messaggio fungerà come limite superiore del tasso di informazione di un messaggio, in quanto non può essere trasmessa più informazione di quanti bit vengono trasmessi
+$$R(\underline{X})\leq \frac{\log_2(M)}{T}$$
 
 
 
