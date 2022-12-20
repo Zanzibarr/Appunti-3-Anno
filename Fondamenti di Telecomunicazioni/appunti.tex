@@ -155,28 +155,17 @@ $$E_{(As(t))}=A^2E_s$$
 Per passare l'energia di un segnale in decibel si usa il seguente passaggio:
 $$(E_s)_{dB}=10\log(E_s)$$
 
+\subsection{Spazio vettoriale di segnali a energia finita}
 
-
-
-
-
-
-
-
-
-
-\newpage
-\section{Spazio vettoriale di segnali a energia finita}
-
-\subsection{Prodotto interno}
+\subsubsection{Prodotto interno}
 Definiamo il prodotto interno tra due vettori come:
 $$\langle\;x(t),\;y(t)\;\rangle=\int_{-\infty}^{\infty}x(t)y(t)\;dt$$
 
-\subsection{Norma di un vettore}
+\subsubsection{Norma di un vettore}
 Definiamo la norma di un vettore come:
 $$||s(t)||=\sqrt{\langle\;s(t),\;s(t)\;\rangle}=\sqrt{E_s}$$
 
-\subsection{Base ortonormale}
+\subsubsection{Base ortonormale}
 una base ortonormale di uno spazio vettoriale è un insieme di vettori $\phi_1(t),...,\phi_I(t)$ tali che:
 $$\begin{array}{rcrcrc}
 	\langle\;x_i(t),\;x_j(t)\;\rangle=0,& i\neq j,\;\forall\;i,j\\\\
@@ -220,7 +209,7 @@ Da notare che due vettori sono ortogonali in due casi:
 	\end{center}
 \end{enumerate}
 
-\subsection{Metodo di orto normalizzazione di Gram Schmidt}
+\subsubsection{Metodo di orto normalizzazione di Gram Schmidt}
 Supponiamo di avere N vettori $s_1(t),...,s_N(t)$ e vogliamo trovare una base ortonormale per questi vettori: il primo passo è scegliere uno dei vettori e \textbf{normalizzarlo}, per usarlo come primo vettore della base:
 $$\phi_1(t)=\frac{s_i(t)}{\sqrt{E_{s_1}}}$$
 Ora dobbiamo trovare gli altri vettori della base con il seguente processo:
@@ -893,11 +882,11 @@ Un altro modo per vedere l'entropia è che l'entropia mi rappresenta l'incertezz
 	\item $H(X)=0$ solo se $X$ è deterministica
 \end{enumerate}
 
-\subsection{Funzioni concave e diseguaglianza di Tensen}
+\subsection{Funzioni concave e diseguaglianza di Jensen}
 Una funzione $f(x)$ è strettamente concava, dati $k_1,...,k_N\geq0$, tali che $\sum_{n=1}^Nk_n=1$ e dati $a_1,...,a_N$ distinti, se vale che
 $$\sum_{n=1}^Nk_nf(a_n)<f(\sum_{n=1}^N(k_na_n))$$
 
-\subsubsection{Disequazione di Tensen}
+\subsubsection{Disequazione di Jensen}
 Sia $X$ v.a. e $f(x)$ una funzione strettamente concava:
 $$E[f(x)]=\sum_{a\in A_x}p_x(a)f(a)$$
 $$E[f(x)]<f\biggl(\sum_{a\in A_x}p_x(a)a\biggl)=f(E[x])$$
@@ -1037,10 +1026,60 @@ Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esi
 Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a blocco (n,k); si ha quindi che $$\frac{k}{n}=RT_c<CT_c$$
 
 \subsubsection{Converse}
-Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$.
+Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$.\\
+TODO: RECUPERO LEZIONI PERSE
 
 
 
+
+
+
+
+\newpage
+\section{Codifica di Sorgente}
+L'operazione di codifica di sorgente, codifica il flusso di informazione e lo converte in un'altra sequenza di simboli.\\
+Lo scopo del processo è comprimere il messaggio, in modo da trasmettere il minor numero di $bit/s$.\\
+Dopo la codifica di sorgente, avvengono la codifica di canale, la modulazione, la demodulazione, la decodifica di canale e in fine la decodifica di sorgente.\\
+Ci sono due tipi di codifiche di sorgente:
+\begin{enumerate}
+	\item \textbf{Codifica di sorgente senza perdite (LOSSLESS)}: Il messaggio all'uscita del decodificatore coincide con quello all'ingresso del codificatore.
+	\item \textbf{Codifica di sorgente con perdite (LOSSY)}: Il messaggio all'uscita del decodificatore è simile ma non coincide con quello all'ingresso del codificatore.
+\end{enumerate}
+
+\subsection{Codifica di sorgente senza perdite}
+
+TODO: RECUPERO LEZIONE
+
+\subsection{Teorema di Kraft Mc-Millan}
+\begin{enumerate}
+	\item Per ogni codificatore di sorgente senza perdite, deve valere $$\sum_{\underline{b}\in\mathcal{D}_y}\frac{1}{M_y^{L_{\underline{y}}(\underline{b})}}\leq 1$$ dove $M_y$ è la cardinalità dell'alfabeto di $y$ e $L_y(\underline{b})$ è la lunghezza (in simboli) della parola $\underline{b}$
+	\item Per una sorgente con dizionario di cardinalità $N$ (con $N$ parole da codificare), se $l_1,...,l_N$ sono interi che verificano $$\sum_{i=1}^N\frac{1}{M_y^{l_i}}\leq 1$$ con $M_y$ intero, allora esiste un codice prefisso con alfabeto di cardinalità $M_y$ e parole di codice di lunghezza $L_i$
+\end{enumerate}
+
+\subsection{Teorema di Shannon per la codifica di sorgente}
+\begin{enumerate}
+	\item Per ogni codice sorgente con alfabeto di cardinalità $M_y$, la lunghezza media delle parole soddisfa $$L_y\geq \frac{H(\underline{X})}{\log_2(M_y)}$$
+	\item Esiste un codice a prefisso con alfabeto di cardinalità $M_y$ e lunghezza media delle parole di codice $$L_y<\frac{H(\underline{x})}{\log_2(M_y)}+1$$
+\end{enumerate}
+TODO: RECUPERO LEZIONE 19/12
+
+\subsection{Codifica di sorgente ottima}
+Per un codice a prefisso ottimo, parole a più bassa probabilità hanno lunghezza maggiore $$p_x(a_1)\geq p_x(a_2)\rightarrow L(b_1)\leq L(b_2)$$
+\subsubsection{}
+Nel dizionario di un codice a prefisso ottimo, ci sono almeno due parole di codice $\underline{b}'$ e $\underline{b}''$ che hanno lunghezza massima e differiscono solo nell'ultimo simbolo.\\
+
+\subsection{Procedura di Huffman}
+Fornisce un codice di sorgente ottimo data la densità di probabilità del dizionario $\mathcal{D}_x$ da codificare.
+\begin{enumerate}
+	\item Ordiniamo le parole di $\mathcal{D}_x$ con probabilità decrescente $$p_x(a_1')\geq...\geq p_x(a_{N-1}')\geq p_x(a_N')$$
+	\item Assegnamo le parole pià lunghe a $a_{N-1}'$ e $a_N'$ e le costruiamo uguali tranne l'ultimo bit
+	\item Costruisco un nuovo codice sul dizionario con densità di probabilità\\ $p(a_1'),\,...,\,p(a_{N-1}'),\,p(a_N')$
+\end{enumerate}
+
+\subsection{Codifica aritmetica}
+
+\subsubsection{Codice di Elias}
+Data una densità di probabilità delle parole di ingresso $\mathcal{D}_x)\{a_1,..,1_N\}$, $p_x(a_1),\,...,\,p_x(a_N)$; supponiamo che le parole abbiano un ordine (es lessicografico)
 
 
 \end{document}
