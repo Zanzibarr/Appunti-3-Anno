@@ -989,7 +989,8 @@ $$R(\underline{X})\leq \frac{\log_2(M)}{T}$$
 
 
 \newpage
-\section{Canale numerico M-ario senza memoria}
+\section{Codifica di canale}
+\subsection{Canale numerico M-ario senza memoria}
 Indichiamo con $T_c$ il tempo di simbolo del canale.\\
 Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$,ed essendo senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
 
@@ -1027,7 +1028,14 @@ Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a b
 
 \subsubsection{Converse}
 Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$.\\
-TODO: RECUPERO LEZIONI PERSE
+
+\subsection{Canale analogico AWGN}
+
+\subsubsection{Capacità di un canale analogico AWGN}
+$$r(t)=s_{T_X}(t)+w(t)$$
+Con $s_{T_X}(t)$ segnale analogico e $w(t)$ rumore AWGN (V.A. Normale con media nulla).\\
+La capacità di questo tipo di canale è $$C=\frac{1}{T}\log_2\big(1+\frac{\sigma_{s_{Tx}}^2}{\sigma_w^2}\big)$$
+con $\sigma_{s_{Tx}}^2=E\big[s_{T_X}^2(t)\big]$ e $\sigma_w^2$ la varianza del rumore
 
 
 
