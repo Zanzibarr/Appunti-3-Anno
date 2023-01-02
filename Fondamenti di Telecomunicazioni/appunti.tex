@@ -1036,7 +1036,19 @@ $$r(t)=s_{T_X}(t)+w(t)$$
 Con $s_{T_X}(t)$ segnale analogico e $w(t)$ rumore AWGN (V.A. Normale con media nulla).\\
 La capacità di questo tipo di canale è $$C=\frac{1}{T}\log_2\big(1+\frac{\sigma_{s_{Tx}}^2}{\sigma_w^2}\big)$$
 con $\sigma_{s_{Tx}}^2=E\big[s_{T_X}^2(t)\big]$ e $\sigma_w^2$ la varianza del rumore.\\
-La densità di probabilità dell'ingresso che massimizza la mutua informazione (che raggiunge la capacità calcolata) è Gaussiana a media nulla (per una potenza fissata).
+La densità di probabilità dell'ingresso che massimizza la mutua informazione (che raggiunge la capacità calcolata) è Gaussiana a media nulla (per una potenza fissata).\\
+
+\subsection{Canale binario simmetrico senza memoria}
+$$P(\hat{b_l}=1|b_l=0)=P(\hat{b_l}=0|b_l=1)=P_{bit}$$ (simmetrico)\\
+$$C=max\big(\frac{I(b_l;\hat{b_l})}{T_b}\big)$$
+L'informazione mutua abbiamo che vale $$I(b_l;\hat{b_l}) = H(\hat{b_l})-H(\hat{b_l}|b_l)$$
+facendo i calcoli otteniamo che $$C=\frac{1}{T_C}\big\{1-\big[P_{bit}\log_2(\frac{1}{P_{bit}})+(1-P_{bit}\log_2(\frac{1}{1-P_{bit}}))\big]\}$$
+
+
+
+
+
+
 
 
 
