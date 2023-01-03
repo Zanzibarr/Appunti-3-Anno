@@ -1044,7 +1044,42 @@ $$C=max\big(\frac{I(b_l;\hat{b_l})}{T_b}\big)$$
 L'informazione mutua abbiamo che vale $$I(b_l;\hat{b_l}) = H(\hat{b_l})-H(\hat{b_l}|b_l)$$
 facendo i calcoli otteniamo che $$C=\frac{1}{T_C}\big\{1-\big[P_{bit}\log_2(\frac{1}{P_{bit}})+(1-P_{bit}\log_2(\frac{1}{1-P_{bit}}))\big]\}$$
 
-
+\subsection{Canale binario senza memoria con cancellazione}
+Si tratta di un canale che ha in ingresso due possibili simboli $(0,1)$ ma con uscita tre possibili valori $(0,1,e)$.\\
+Posso avere una possibilità che avendo trasmesso $1$ io riceva $e$ (lo stesso vale per lo $0$).
+$$\begin{array}{c}
+	P(y=e|x=0)=P(y=e|x=1)=\alpha \\\\
+	P(y=0|x=0)=P(y=1|x=1)=1-\alpha \\\\
+	P(y=1|x=0)=P(y=0|x=1)=0
+\end{array}$$
+Posso trovare un canale di questo tipo ad esempio se considero una modulazione di canale binaria e sono troppo incerto al ricevitore (se non so cosa ho trasmesso, non mi prendo rischi e non decodifico il messaggio).
+\begin{center}
+	\begin{tikzpicture}
+		\draw[->] (-3,0) -- (3,0) node[right]{$\phi_1$};
+		\node[red] at (-2,0){$\times$};
+		\node[above] at (-2,0){$0$};
+		\node[below] at (-2,0){$-1$};
+		\node[above] at (0,0) {$e$};
+		\draw[color=black] (0,-0.1) -- (0,0.1);
+		\node[below] at (0.5,0) {$A$};
+		\draw[color=black] (0.5,-0.1) -- (0.5,0.1);
+		\node[below] at (-0.5,0) {$-A$};
+		\draw[color=black] (-0.5,-0.1) -- (-0.5,0.1);
+		\node[red] at (2,0){$\times$};
+		\node[above] at (2,0){$1$};
+		\node[below] at (2,0){$1$};
+	\end{tikzpicture}
+\end{center}
+$$\alpha=P\big(w\in[-(1+A);-(1-A)]\big)$$
+Essendo però in un canale con rumore gaussiano, non è mai nulla la probabilità che venga ricevuto 0 dato che è stato trasmesso 1, quindi dovremmo (a scopo matematico) introdurre un'altra probabilità: $$\beta = P\big(y=1|x=0\big)=P\big(w>(1+A)\big)\simeq 0$$
+Fissando $q=P(x=0)$ abbiamo che:
+$$\begin{array}{c}
+	P_y(0)=q(1-\alpha)\\\\
+	P_y(1)=(1-q)(1-\alpha)\\\\
+	P_y(e)=\alpha
+\end{array}$$
+Calcoliamo quindi ora la capacità del canale:
+$$C=\frac{1}{T}max\big(I(x;y)\big)=\frac{1-\alpha}{T}$$
 
 
 
