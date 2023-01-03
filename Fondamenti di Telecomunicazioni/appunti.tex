@@ -990,9 +990,10 @@ $$R(\underline{X})\leq \frac{\log_2(M)}{T}$$
 
 \newpage
 \section{Codifica di canale}
+Indichiamo con $T_c$ il \textbf{tempo di simbolo del canale}.
+
 \subsection{Canale numerico M-ario senza memoria}
-Indichiamo con $T_c$ il tempo di simbolo del canale.\\
-Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$,ed essendo senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
+Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$, ed essendo senza memoria, $y_n$ dipende solo da $x_n$ e non dai simboli trasmessi precedentemente.\\
 
 \subsubsection{Descrizione del canale attraverso una matrice di probabilità di transizione}
 $$P(y_n=a|x_n=b)=\left(\;\begin{array}{ccc}
@@ -1007,22 +1008,22 @@ Sommando i valori della colonna $i$ della matrice, a patto che ogni simbolo sia 
 Definiamo $\mathcal{G}$ un canale numerico M-ario senza memoria, con probabilità di transizione $P(y_n|x_n)$.\\
 Il tasso di informazione di $\mathcal{G}$ è (per una certa statistica della sorgente) 
 $$R(\mathcal{G})=\frac{1}{T_c}I_s(\underline{x};\underline{y})=\frac{1}{T_c}\big[H_s(\underline{x})+H_s(\underline{y})-H_s(\underline{x},\underline{y})\big]\qquad[bit/s]$$
-Se $x_n$ e $y_n$ sono indipendenti ((in $n$) e identicamente distribuiti:
+Se $x_n$ e $y_n$ sono \textbf{indipendenti} ((in $n$) e \textbf{identicamente distribuiti}:
 $$R(\mathcal{G})=\frac{1}{T_c}I_s(x_n;y_n)$$
 Per esempio, nel caso in cui abbiamo $y_n=x_n$, la matrice di probabilità di transizione è uguale alla matrice identità; il tasso di informazione del canale vale $R(\mathcal{G})=\frac{1}{T_c}H(x_n)$.\\
 In generale, per un canale qualsiasi, poichè $I_s(\underline{x};\underline{y})\leq H_s(\underline{x})$, avremo che $$R(\mathcal{G})=\frac{I_s(\underline{x};\underline{y})}{T_c}\leq\frac{H_s(\underline{x})}{T_c}$$
 
 \subsubsection{Capacità di un canale numerico M-ario senza memoria}
-La capacità del canale è il massimo tasso di informazione del canale tra tutti quelli ottenuti, usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)$$
+La capacità del canale è il \textbf{massimo tasso di informazione del canale} tra tutti quelli ottenuti, usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)$$
 Nell'esempio di prima ($y_n=x_n$), la capacità è $$C=\frac{\log_2(M)}{T_c}$$ (ottenuta con $x_n$ a valori equiprobabili nell'alfabeto M-ario)
 
 \subsection{Teorema di Shannon per la codifica di canale}
-Consideriamo un canale M-ario numerico senza memoria con periodo di simbolo $T_c$ e capacità C.\\
+Consideriamo un canale M-ario numerico senza memoria con periodo di simbolo $T_c$ e capacità $C$.\\
 Sia $\{b_{\mathcal{C}}\}$ una sorgente con tasso di informazione del messaggio nominale $R$.\\
 Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esistono:
 \begin{enumerate}
-	\item Un codice di canale con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_c}\rceil$
-	\item Un decodificatore per il codice tali che la probabilità di errore sulla parola di codice è minore di $\delta$
+	\item Un \textbf{codice di canale} con parole (con alfabeto M-ario) lunghe $n$ e con un numero di parole $\lceil2^{nRT_c}\rceil$
+	\item Un \textbf{decodificatore per il codice} tali che la probabilità di errore sulla parola di codice è minore di $\delta$
 \end{enumerate}
 Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a blocco (n,k); si ha quindi che $$\frac{k}{n}=RT_c<CT_c$$
 
@@ -1045,7 +1046,7 @@ L'informazione mutua abbiamo che vale $$I(b_l;\hat{b_l}) = H(\hat{b_l})-H(\hat{b
 facendo i calcoli otteniamo che $$C=\frac{1}{T_C}\big\{1-\big[P_{bit}\log_2(\frac{1}{P_{bit}})+(1-P_{bit}\log_2(\frac{1}{1-P_{bit}}))\big]\}$$
 
 \subsection{Canale binario senza memoria con cancellazione}
-Si tratta di un canale che ha in ingresso due possibili simboli $(0,1)$ ma con uscita tre possibili valori $(0,1,e)$.\\
+Si tratta di un canale che ha \textbf{in ingresso due possibili simboli} $(0,1)$ ma \textbf{con uscita tre possibili valori} $(0,1,e)$.\\
 Posso avere una possibilità che avendo trasmesso $1$ io riceva $e$ (lo stesso vale per lo $0$).
 $$\begin{array}{c}
 	P(y=e|x=0)=P(y=e|x=1)=\alpha \\\\
@@ -1091,25 +1092,37 @@ $$C=\frac{1}{T}max\big(I(x;y)\big)=\frac{1-\alpha}{T}$$
 
 
 
+
+
 \newpage
 \section{Codifica di Sorgente}
 L'operazione di codifica di sorgente, codifica il flusso di informazione e lo converte in un'altra sequenza di simboli.\\
-Lo scopo del processo è comprimere il messaggio, in modo da trasmettere il minor numero di $bit/s$.\\
+Lo scopo del processo è \textbf{comprimere il messaggio}, in modo da trasmettere il minor numero di $bit/s$.\\
 Dopo la codifica di sorgente, avvengono la codifica di canale, la modulazione, la demodulazione, la decodifica di canale e in fine la decodifica di sorgente.\\
-Ci sono due tipi di codifiche di sorgente:
+Ci sono \textbf{due tipi di codifiche di sorgente}:
 \begin{enumerate}
 	\item \textbf{Codifica di sorgente senza perdite (LOSSLESS)}: Il messaggio all'uscita del decodificatore coincide con quello all'ingresso del codificatore.
 	\item \textbf{Codifica di sorgente con perdite (LOSSY)}: Il messaggio all'uscita del decodificatore è simile ma non coincide con quello all'ingresso del codificatore.
 \end{enumerate}
 
 \subsection{Codifica di sorgente senza perdite}
+La sorgente trasmette da un dizionario $\mathcal{D}_x$ delle parole $\underline{x}$ con una densità di probabilità $p_x$.\\
+In generale, all'uscita dal codificatore di sorgente, le parole saranno più corte; le parole in uscita allora faranno parte di un alfabeto $\mathcal{D}_y$ delle parole $\underline{y}$ con lettere prese da un alfabeto con cardinalità $M_y$.\\
+Le parole $\underline{y}$ hanno una \textbf{lunghezza variabile} (in generale), in quanto ho una miglior dinamicità per la creazione delle parole in uscita e non ho le mani legate per come creare il codificatore (possono esserci \textbf{parole più corte che corrispondono a parole lunghe più probabili}).\\
+Quello che conta è la lunghezza media media delle parole $\underline{y}$: $$L_y=E\big[L(\underline{y})\big]=\sum L(\underline{y})p_{\underline{x}}(\underline{x}(\underline{y}))$$
+con $\underline{x}(\underline{y})$ si intende la parola $\underline{x}$ associata alla parola codificata $\underline{y}$ e con $L(\underline{y})$ la funzione che mi determina la lunghezza della parola $\underline{y}$.\\\\
+Il codificatore di canale, tuttavia, vuole blocchi di lunghezza fissa, mentre il codificatore di sorgente, cercando di comprimere, trasmette \textbf{blocchi con lunghezza variabile}.\\
+Per risolvere a questo problema, prendo le parole trasmesse dal codificatore di sorgente e le unisco in un unica grande parola; il codificatore di canale poi suddividerà l'unione delle parole in parole della lunghezza necessaria. Se poi non ci saranno errori nel canale sarà possibile ricostruire la sequenza di parole iniziale.\\
 
-TODO: RECUPERO LEZIONE
+\subsubsection{Codici a prefisso}
+Per riuscire a suddividere le parole che erano state unificate dal codificatore di canale, utilizzo i \textbf{codici a prefisso}: un codice di sorgente a prefisso \textbf{non ha nessuna parola di codice che è prefisso di un'altra}.\\
+Ad esempio il dizionario $\mathcal{D}_y=\{0,10,111\}$ è un codice a prefisso in quanto ogni parola di codice non è utilizzabile come prefisso di un'altra parola.\\
+
 
 \subsection{Teorema di Kraft Mc-Millan}
 \begin{enumerate}
-	\item Per ogni codificatore di sorgente senza perdite, deve valere $$\sum_{\underline{b}\in\mathcal{D}_y}\frac{1}{M_y^{L_{\underline{y}}(\underline{b})}}\leq 1$$ dove $M_y$ è la cardinalità dell'alfabeto di $y$ e $L_y(\underline{b})$ è la lunghezza (in simboli) della parola $\underline{b}$
-	\item Per una sorgente con dizionario di cardinalità $N$ (con $N$ parole da codificare), se $l_1,...,l_N$ sono interi che verificano $$\sum_{i=1}^N\frac{1}{M_y^{l_i}}\leq 1$$ con $M_y$ intero, allora esiste un codice prefisso con alfabeto di cardinalità $M_y$ e parole di codice di lunghezza $L_i$
+	\item Per ogni codificatore di sorgente senza perdite, deve valere $$\sum_{\underline{b}\in\mathcal{D}_y}\frac{1}{M_y^{L_{\underline{y}}(\underline{b})}}\leq 1$$ dove $M_y$ è la cardinalità dell'alfabeto di $\underline{y}$ e $L_y(\underline{b})$ è la lunghezza (in simboli) della parola $\underline{b}$
+	\item Per una sorgente con dizionario di cardinalità $N$ (con $N$ parole da codificare), se $l_1,...,l_N$ sono interi che verificano $$\sum_{i=1}^N\frac{1}{M_y^{l_i}}\leq 1$$ con $M_y$ intero, allora esiste un codice a prefisso con alfabeto di cardinalità $M_y$ e parole di codice di lunghezza $L_i$
 \end{enumerate}
 
 \subsection{Teorema di Shannon per la codifica di sorgente}
