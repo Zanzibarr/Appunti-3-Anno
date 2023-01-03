@@ -1118,7 +1118,6 @@ Per risolvere a questo problema, prendo le parole trasmesse dal codificatore di 
 Per riuscire a suddividere le parole che erano state unificate dal codificatore di canale, utilizzo i \textbf{codici a prefisso}: un codice di sorgente a prefisso \textbf{non ha nessuna parola di codice che è prefisso di un'altra}.\\
 Ad esempio il dizionario $\mathcal{D}_y=\{0,10,111\}$ è un codice a prefisso in quanto ogni parola di codice non è utilizzabile come prefisso di un'altra parola.\\
 
-
 \subsection{Teorema di Kraft Mc-Millan}
 \begin{enumerate}
 	\item Per ogni codificatore di sorgente senza perdite, deve valere $$\sum_{\underline{b}\in\mathcal{D}_y}\frac{1}{M_y^{L_{\underline{y}}(\underline{b})}}\leq 1$$ dove $M_y$ è la cardinalità dell'alfabeto di $\underline{y}$ e $L_y(\underline{b})$ è la lunghezza (in simboli) della parola $\underline{b}$
@@ -1127,10 +1126,16 @@ Ad esempio il dizionario $\mathcal{D}_y=\{0,10,111\}$ è un codice a prefisso in
 
 \subsection{Teorema di Shannon per la codifica di sorgente}
 \begin{enumerate}
-	\item Per ogni codice sorgente con alfabeto di cardinalità $M_y$, la lunghezza media delle parole soddisfa $$L_y\geq \frac{H(\underline{X})}{\log_2(M_y)}$$
+	\item Per ogni codice di sorgente con alfabeto di cardinalità $M_y$, la lunghezza media delle parole soddisfa $$L_y\geq \frac{H(\underline{X})}{\log_2(M_y)}$$
 	\item Esiste un codice a prefisso con alfabeto di cardinalità $M_y$ e lunghezza media delle parole di codice $$L_y<\frac{H(\underline{x})}{\log_2(M_y)}+1$$
 \end{enumerate}
-TODO: RECUPERO LEZIONE 19/12
+Il teorema di Shannon \textbf{lega la lunghezza media delle parole di codice all'entropia della sorgente}.\\
+Unendo le cose, otteniamo che $$\frac{H(\underline{x})}{\log_2(M_y)}\leq L_y<\frac{H(\underline{x})}{\log_2(M_y)}+1$$
+sempre se faccio le cose per bene (si tratta di una garanzia di esistenza, non garantisce che ogni codifica di sorgente avrà questo risultato).\\
+Abbiamo quindi che la lunghezza delle parole di codice hanno lunghezza $$l_i=\lceil\log_{\frac{1}{M_y}}(p_x(a_i))\rceil\qquad\forall a_i\in\mathcal{D}_x$$
+Il codice con queste lunghezze si chiama \textbf{Codice di Shannon-Fano}.\\
+Il codice di Shannon-Fano è ottimo (raggiunge la lunghezza media minima tra tutti i codici per una data sorgente) se $p_x(a_i)$ sono \textbf{potenze intere} di $\frac{1}{M_y}$ in modo che il logaritmo dia un numero intero.\\
+$$L_y=E\big[\log_{\frac{1}{M_y}}(p_x(a_i))\big]=\frac{H(\underline{x})}{\log_2(M_y)}$$
 
 \subsection{Codifica di sorgente ottima}
 Per un codice a prefisso ottimo, parole a più bassa probabilità hanno lunghezza maggiore $$p_x(a_1)\geq p_x(a_2)\rightarrow L(b_1)\leq L(b_2)$$
