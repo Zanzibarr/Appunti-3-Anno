@@ -1043,7 +1043,7 @@ La densità di probabilità dell'ingresso che massimizza la mutua informazione (
 $$P(\hat{b_l}=1|b_l=0)=P(\hat{b_l}=0|b_l=1)=P_{bit}$$ (simmetrico)\\
 $$C=max\big(\frac{I(b_l;\hat{b_l})}{T_b}\big)$$
 L'informazione mutua abbiamo che vale $$I(b_l;\hat{b_l}) = H(\hat{b_l})-H(\hat{b_l}|b_l)$$
-facendo i calcoli otteniamo che $$C=\frac{1}{T_C}\big\{1-\big[P_{bit}\log_2(\frac{1}{P_{bit}})+(1-P_{bit}\log_2(\frac{1}{1-P_{bit}}))\big]\}$$
+facendo i calcoli otteniamo che $$C=\frac{1}{T_C}\big\{1-\big[P_{bit}\log_2(\frac{1}{P_{bit}})+(1-P_{bit})\log_2(\frac{1}{1-P_{bit}})\big]\}$$
 
 \subsection{Canale binario senza memoria con cancellazione}
 Si tratta di un canale che ha \textbf{in ingresso due possibili simboli} $(0,1)$ ma \textbf{con uscita tre possibili valori} $(0,1,e)$.\\
@@ -1155,5 +1155,6 @@ Fornisce un codice di sorgente ottimo data la densità di probabilità del dizio
 \subsubsection{Codice di Elias}
 Data una densità di probabilità delle parole di ingresso $\mathcal{D}_x)\{a_1,..,1_N\}$, $p_x(a_1),\,...,\,p_x(a_N)$; supponiamo che le parole abbiano un ordine (es lessicografico)
 
+TODO: Recupero ultima lezione da Bisca
 
 \end{document}
