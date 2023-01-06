@@ -676,9 +676,9 @@ Volendo minimizzare la probabilità di errore sulle sequenza, $P_e=(P(\underline
 \end{enumerate}
 
 \subsection{Errori rilevati e corretti da un codice a blocco}
-Il numero massimo di errori che posso correggere è $\lfloor\frac{d_H-1}{2}\rfloor$.\\
-Il numero massimo di errori che posso rilevare è invece di $d_H-1$.\\
-Con $d_H$ la distanza di hamming tra due parole di codice.
+Il numero massimo di \textbf{errori che posso correggere} è $\lfloor\frac{d_{H,min}-1}{2}\rfloor$.\\
+Il numero massimo di \textbf{errori che posso rilevare} è invece di $d_{H,min}-1$.\\
+Con $d_{H,min}$ la distanza di Hamming minima tra due parole di codice.
 
 \subsubsection{Distanza di Hamming minima di un codice $\mathcal{C}$}
 $$d_{min}=min\big(d_H(\underline{C}_i,\underline{C}_j)\big)$$
