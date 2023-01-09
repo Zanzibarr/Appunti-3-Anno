@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  6 JAN 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  9 JAN 2023 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,176 +704,192 @@ Underfull \hbox (badness 10000) in paragraph at lines 811--813
  []
 
 [22]
-Overfull \hbox (40.61263pt too wide) in paragraph at lines 836--837
+Underfull \hbox (badness 10000) in paragraph at lines 833--835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 841--843
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+
+ []
+
+[23]
+Overfull \hbox (40.61263pt too wide) in paragraph at lines 864--865
 \OT1/cmr/m/n/10 L'informazione ^^Re una fun-zione dell'evento $\OML/cmm/m/it/10
  A$ \OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1
 /cmr/m/n/10 )$ im-por-tanza/quantit^^Ra dell'informazione)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--859
+Underfull \hbox (badness 10000) in paragraph at lines 884--887
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--859
+Underfull \hbox (badness 10000) in paragraph at lines 884--887
 
  []
 
-[23]
-Overfull \hbox (4.91731pt too wide) in paragraph at lines 870--872
+[24]
+Overfull \hbox (4.91731pt too wide) in paragraph at lines 898--900
 \OT1/cmr/m/n/10 Noto quindi che la fun-zione in-for-mazione non mi serve per ca
 l-co-lare l'informazione
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--872
+Underfull \hbox (badness 10000) in paragraph at lines 898--900
 
  []
 
 
-Overfull \hbox (2.80634pt too wide) in paragraph at lines 875--878
+Overfull \hbox (2.80634pt too wide) in paragraph at lines 903--906
 \OT1/cmr/m/n/10 L'entropia mi rap-p-re-senta l'informazione me-dia por-tata dal
 l'informazione, quindi
  []
 
 
-Overfull \hbox (3.69395pt too wide) in paragraph at lines 886--887
+Overfull \hbox (3.69395pt too wide) in paragraph at lines 914--915
 \OT1/cmr/m/n/10 Una fun-zione $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it
 /10 x\OT1/cmr/m/n/10 )$ ^^Re stret-ta-mente con-cava, dati $\OML/cmm/m/it/10 k[
 ]; :::; k[] \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 0$, tali che $[][] \OML/cmm/m/
 it/10 k[] \OT1/cmr/m/n/10 =
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 899--902
-
- []
-
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 921--922
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 932--934
+Underfull \hbox (badness 10000) in paragraph at lines 927--930
 
  []
 
 [26]
-Overfull \hbox (4.19505pt too wide) in paragraph at lines 942--944
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 960--962
+
+ []
+
+[27]
+Overfull \hbox (4.19505pt too wide) in paragraph at lines 970--972
 \OT1/cmr/m/n/10 Il nos-tro scopo ^^Re quello di scri-vere l'entropia con-dizion
 -ata in fun-zione dell'entropia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--954
+Underfull \hbox (badness 10000) in paragraph at lines 978--982
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--958
+Underfull \hbox (badness 10000) in paragraph at lines 984--986
 
  []
 
-[27]
-Overfull \hbox (7.12035pt too wide) in paragraph at lines 962--963
+[28]
+Overfull \hbox (7.12035pt too wide) in paragraph at lines 990--991
 \OT1/cmr/m/n/10 Se gli el-e-menti del vet-tore aleato-rio $[]$ sono \OT1/cmr/bx
 /n/10 iden-ti-ca-mente dis-tribuiti \OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 p[]\OT1/
 cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ) =
  []
 
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 996--997
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
-
- []
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1069
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1044
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
 
  []
 
-[32] [33]
-Overfull \hbox (10.95311pt too wide) in paragraph at lines 1104--1105
+[33] [34]
+Overfull \hbox (10.95311pt too wide) in paragraph at lines 1132--1133
 []\OT1/cmr/bx/n/10 Codifica di sor-gente senza perdite (LOSS-LESS)\OT1/cmr/m/n/
 10 : Il mes-sag-gio all'uscita
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1112--1116
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1112--1116
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1120
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1138
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1143--1144
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1166
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1171
 
  []
 
 
-Overfull \hbox (39.88039pt too wide) in paragraph at lines 1156--1158
-\OT1/cmr/m/n/10 Data una den-sit^^Ra di prob-a-bilit^^Ra delle pa-role di in-gr
-esso $\OMS/cmsy/m/n/10 D[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a
-[]; ::; \OT1/cmr/m/n/10 1[]\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/
-10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; 
- :::;  p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )$;
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1186
+
  []
 
-[36] (./appunti.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1224
+
+ []
+
+[37] [38] (./appunti.aux) ) 
 Here is how much of TeX's memory you used:
- 23673 strings out of 480171
- 623900 string characters out of 5894488
+ 23676 strings out of 480171
+ 623945 string characters out of 5894488
  1027116 words of memory out of 5000000
- 41251 multiletter control sequences out of 15000+600000
+ 41254 multiletter control sequences out of 15000+600000
  475278 words of font info for 53 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  100i,14n,104p,1030b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb>
-Output written on appunti.pdf (36 pages, 278686 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb>
+Output written on appunti.pdf (38 pages, 285829 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

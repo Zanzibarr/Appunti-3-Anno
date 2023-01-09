@@ -816,7 +816,35 @@ Una matrice di controllo di parità di un codice lineare $\mathcal{C}$ soddisfa
 $$\underline{H}\underline{\gamma}=\underline{0}\iff\underline{\gamma}\in\mathcal{C}$$ tecnica utile per determinare se un vettore $\underline{\gamma}$ è una parola del codice.\\
 $\underline{H}$ è matrice di controllo di parità di un codice con matrice generatrice $\underline{G}$ se e solo se 
 $$\underline{H}\,\underline{G}=\underline{0}\quad e \quad rango(\underline{H})=n-k$$
-TODO lezione 26
+
+\subsubsection{Codice con Matrice G in forma sistematica}
+$$\underline{G}=\left(\;\begin{array}{c}\underline{I}\\\\\hline\\\underline{A}\end{array}\;\right)\qquad\underline{I}[k\times k],\;\underline{A}[(n-k)\times k]$$
+Consideriamo la matrice di parità $\underline{H}$ per questa matrice G:
+$$
+\underline{G}=\left(\;
+\begin{array}{cc}
+	\underline{A}\quad\underline{I}
+\end{array}\;\right)
+\qquad
+\underline{A}[(n-k)\times k],\;\underline{I}[(n-k)\times (n-k)]$$
+
+\subsubsection{Decodifica per codici lineari}
+Siamo in un canale binario simmetrico senza memoria (si usa il criterio a minima distanza).\\
+Se riceviamo la sequenza $\underline{a}=(a_1,...,a_n)$, la parola decodificata è $$\hat{\underline{c}}=argmin_{\underline{c}\in\mathcal{C}}||\underline{c}-\underline{a}||_{H}$$
+Definiamo $\underline{\epsilon}=\underline{c}-\underline{a}$.\\
+$$\hat{\underline{c}}=\underline{a}+argmin_{\underline{\epsilon}}||\underline{\epsilon}||$$
+
+\subsubsection{Sindrome di una sequenza a}
+$$\underline{\sigma}=\underline{H}\underline{a}$$
+Se $\underline{a}$ è una parola di codice, $\underline{\sigma}=0$.\\
+Sappiamo tuttavia che $\underline{a}=\underline{c}+\underline{\epsilon}$, quindi $\underline{a}\not\in\mathcal{C}$
+$$\underline{H}\underline{a}=\underline{H}(\underline{\epsilon}+\underline{c})=\underline{H}\underline{\epsilon}$$
+Da questa equazione ricaviamo che tutte le sequenze che hanno lo stesso errore $\underline{\epsilon}$ hanno la stessa sindrome.\\
+$$\hat{\underline{c}}=\underline{a}+\underline{\epsilon}_{min}(\underline{\sigma})$$
+
+\subsection{Codici di Hamming}
+Un codice di Hamming è un codice lineare a blocco che ha come matrice di Parità $\underline{H}$ che contiene come colonne tutte le sequenze non nulle di lunghezza $n-k$.\\
+
 
 
 
@@ -1138,8 +1166,7 @@ Il codice di Shannon-Fano è ottimo (raggiunge la lunghezza media minima tra tut
 $$L_y=E\big[\log_{\frac{1}{M_y}}(p_x(a_i))\big]=\frac{H(\underline{x})}{\log_2(M_y)}$$
 
 \subsection{Codifica di sorgente ottima}
-Per un codice a prefisso ottimo, parole a più bassa probabilità hanno lunghezza maggiore $$p_x(a_1)\geq p_x(a_2)\rightarrow L(b_1)\leq L(b_2)$$
-\subsubsection{}
+Per un codice a prefisso ottimo, \textbf{parole a più bassa probabilità hanno lunghezza maggiore} $$p_x(a_1)\geq p_x(a_2)\rightarrow L(b_1)\leq L(b_2)$$
 Nel dizionario di un codice a prefisso ottimo, ci sono almeno due parole di codice $\underline{b}'$ e $\underline{b}''$ che hanno lunghezza massima e differiscono solo nell'ultimo simbolo.\\
 
 \subsection{Procedura di Huffman}
@@ -1153,7 +1180,59 @@ Fornisce un codice di sorgente ottimo data la densità di probabilità del dizio
 \subsection{Codifica aritmetica}
 
 \subsubsection{Codice di Elias}
-Data una densità di probabilità delle parole di ingresso $\mathcal{D}_x)\{a_1,..,1_N\}$, $p_x(a_1),\,...,\,p_x(a_N)$; supponiamo che le parole abbiano un ordine (es lessicografico)\\
-TODO: Recupero ultima lezione da Bisca
+Serve a fornire un codice a prefisso, non per forza ottimo (ma di più facile implementazione).\\
+Data la densità di probabilità delle parole d'ingresso: $$\mathcal{D}_n=\{a_1,...,a_N\},\quad p_n(a_1),...,p_n(a_N)$$
+Disponiamo le probabilità $p_n$ in sequenza su un segmento lungo $1$ e indichiamo con $m_i$ i punti medi nei segmenti delle probabilità.\\
+\begin{center}
+	\begin{tikzpicture}[scale = 3]
+		\draw[->] (-1,0) -- (2,0) node[right]{$\phi_1$};
+		
+		\draw[color=black] (-0.5,-0.03) -- (-0.5,0.03);
+		\node[above] at (-0.5,0) {$0$};
+		
+		\draw[color=black] (1.5,-0.03) -- (1.5,0.03);
+		\node[above] at (1.5,0) {$1$};
+		
+		\draw[color=black] (0,-0.03) -- (0,0.03);
+		\node[below] at (-0.25,0) {$p_n(a_1)$};
+		
+		\draw[color=black] (0.5,-0.03) -- (0.5,0.03);
+		\node[below] at (0.25,0) {$p_n(a_2)$};
+		
+		\draw[color=black] (0.9,-0.03) -- (0.9,0.03);
+		\node[below] at (0.7,0) {$p_n(a_3)$};
+		
+		\node[below] at (1.2,0) {$p_n(a_4)$};
+		
+	
+		\node[red] at (-0.25,0) {$\times$};
+		\node[above] at (-0.25,0) {$m_{a_1}$};
+		\node[red] at (0.25,0) {$\times$};
+		\node[above] at (0.25,0) {$m_{a_2}$};
+		\node[red] at (0.7,0) {$\times$};
+		\node[above] at (0.7,0) {$m_{a_3}$};
+		\node[red] at (1.2,0) {$\times$};
+		\node[above] at (1.2,0) {$m_{a_4}$};
+		
+	\end{tikzpicture}
+\end{center}
+
+Abbiamo quindi che $m_1<m_2<...<m_N$.\\
+Convertiamo i numeri in binario $m_{a_i}=0.0010..01$ e per ogni parola $a_i$ calcoliamo la lunghezza della sequenza: $L_i=\lceil i(a_i)+1\rceil$.\\
+Prendiamo quindi la parte dopo la virgola di $(m_{a_i})_{2}$ e consideriamo solo i $L_i$ bit più significativi.\\
+Andremo così a creare il codice di Elias che avrà una lunghezza media $L_y\geq L_y(ottimo)$.\\
+
+\subsection{Efficienza della sorgente}
+$$\eta=\frac{R(n)}{F\log_2(M)}=\frac{H_s(n)}{\log_2(M)}\qquad \eta\in[0,1],F=\frac{1}{T}$$
+
+\subsubsection{Efficienza di un codice di sorgente}
+$$\eta_y=\frac{H(\underline{y})}{L_y\log_2(M_y)}\qquad\eta_y\in[0,1]$$
+
+\subsubsection{Efficienza del codice ottimo}
+$$\eta>\frac{H(\underline{n})}{H(\underline{n})+\log_2(M_y)}$$
+\begin{enumerate}
+	\item Per $M_y=2$ il limite inferiore è vicine a $1^-$
+	\item Vorremmo che $H(\underline{n})\rightarrow+\infty$ per ridurre l'effetto di $\log_2(M_y)$ ma sappiamo essere limitata a $\log_2(M_n)$, quindi tenderemo ad \textbf{aumentare la dimensione dell'alfabeto}.
+\end{enumerate}
 
 \end{document}
