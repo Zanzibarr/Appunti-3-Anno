@@ -821,7 +821,7 @@ $$\underline{H}\,\underline{G}=\underline{0}\quad e \quad rango(\underline{H})=n
 $$\underline{G}=\left(\;\begin{array}{c}\underline{I}\\\\\hline\\\underline{A}\end{array}\;\right)\qquad\underline{I}[k\times k],\;\underline{A}[(n-k)\times k]$$
 Consideriamo la matrice di parità $\underline{H}$ per questa matrice G:
 $$
-\underline{G}=\left(\;
+\underline{H}=\left(\;
 \begin{array}{cc}
 	\underline{A}\quad\underline{I}
 \end{array}\;\right)
@@ -841,6 +841,7 @@ Sappiamo tuttavia che $\underline{a}=\underline{c}+\underline{\epsilon}$, quindi
 $$\underline{H}\underline{a}=\underline{H}(\underline{\epsilon}+\underline{c})=\underline{H}\underline{\epsilon}$$
 Da questa equazione ricaviamo che tutte le sequenze che hanno lo stesso errore $\underline{\epsilon}$ hanno la stessa sindrome.\\
 $$\hat{\underline{c}}=\underline{a}+\underline{\epsilon}_{min}(\underline{\sigma})$$
+con $\underline{\epsilon}_{min}(\underline{\sigma})$ il \textbf{coset leader} della sindrome $\underline{\sigma}$.
 
 \subsection{Codici di Hamming}
 Un codice di Hamming è un codice lineare a blocco che ha come matrice di Parità $\underline{H}$ che contiene come colonne tutte le sequenze non nulle di lunghezza $n-k$.\\
@@ -981,7 +982,7 @@ $H(X|Y)$ misura \textbf{quanto non so di x dopo che ho visto y}.\\
 $I(X;Y)$ misura \textbf{quando so di x dopo aver visto y}.\\
 
 \subsubsection{Valori assunti dalla mutua informazione}
-$$I()X;Y)=H(X)+H(Y)-H(X,Y)\geq0$$
+$$I(X;Y)=H(X)+H(Y)-H(X,Y)\geq0$$
 In quanto sappiamo che l'entropia congiunta vale meno della somma delle entropie di $X$ e $Y$ (è impossibile avere un'informazione nulla, l'informazione o esiste (>0) o non esiste (=0)).\\
 $$I(X;Y)=H(X)-H(X|Y)\leq min\{H(X),H(Y)\}$$
 Si ha quindi che $$0\leq I(X;Y)\leq min\{H(X),H(Y)\}$$
@@ -992,7 +993,7 @@ Se gli elementi del vettore aleatorio $\underline{X}$ sono \textbf{identicamente
 dato che, in quanto identicamente distribuiti, $H(\underline{X})=NH(X)$.
 
 \subsection{Informazione mutua per simbolo}
-$$I_s(\underline{X};\underline{Y})=H_s(\underline{X})+H_s(\underline{Y})-H_s(\underline{X},\underline{Y})$$
+$$I_s(\underline{X};\underline{Y})=H_s(\underline{X})+H_s(\underline{Y})-H_s(\underline{X},\underline{Y})=H_s(\underline{Y})-H_s(\underline{Y}|\underline{X})$$
 
 \subsection{Sorgente di simboli}
 Se abbiamo una sorgente che in un tempo infinito genera un numero infinito di simboli, abbiamo un vettore aleatorio $\underline{X}=[...,X_{-1},X_0,X_1,...]$ di dimensione infinita.\\
@@ -1025,9 +1026,9 @@ Essendo un canale numerico, $x_n, y_n\in\{a_1,...,a_M\}$, ed essendo senza memor
 
 \subsubsection{Descrizione del canale attraverso una matrice di probabilità di transizione}
 $$P(y_n=a|x_n=b)=\left(\;\begin{array}{ccc}
-	P(1,1)&\cdot&P(1,M)\\\\
+	P(1|1)&\cdot&P(1|M)\\\\
 	\cdot&\cdot&\cdot\\\\
-	P(M,1)&\cdot&P(M,M)
+	P(M|1)&\cdot&P(M|M)
 \end{array}\;\right)$$
 
 Sommando i valori della colonna $i$ della matrice, a patto che ogni simbolo sia trasmesso con la stessa probabilità, ottengo $P_{y_n}(i)$; sommando le colonne della matrice, invece, ottengo 1.\\
@@ -1042,7 +1043,7 @@ Per esempio, nel caso in cui abbiamo $y_n=x_n$, la matrice di probabilità di tr
 In generale, per un canale qualsiasi, poichè $I_s(\underline{x};\underline{y})\leq H_s(\underline{x})$, avremo che $$R(\mathcal{G})=\frac{I_s(\underline{x};\underline{y})}{T_c}\leq\frac{H_s(\underline{x})}{T_c}$$
 
 \subsubsection{Capacità di un canale numerico M-ario senza memoria}
-La capacità del canale è il \textbf{massimo tasso di informazione del canale} tra tutti quelli ottenuti, usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)$$
+La capacità del canale è il \textbf{massimo tasso di informazione del canale} tra tutti quelli ottenuti, usando tutte le possibili distribuzioni della sorgente $$C=max\big(R(\mathcal{G})\big)=\frac{1}{T}max\{H_s(Y)-H_s(Y|X)\}$$
 Nell'esempio di prima ($y_n=x_n$), la capacità è $$C=\frac{\log_2(M)}{T_c}$$ (ottenuta con $x_n$ a valori equiprobabili nell'alfabeto M-ario)
 
 \subsection{Teorema di Shannon per la codifica di canale}
@@ -1054,6 +1055,7 @@ Se $R<C$, allora per ogni $\delta>0$ e per ogni $n$ sufficientemente grande, esi
 	\item Un \textbf{decodificatore per il codice} tali che la probabilità di errore sulla parola di codice è minore di $\delta$
 \end{enumerate}
 Il numero di parole di codice dal teorema è $$2^{nRT_c}=2^k$$ per un codice a blocco (n,k); si ha quindi che $$\frac{k}{n}=RT_c<CT_c$$
+Con $\frac{k}{n}$ il \textbf{rate del codice} o \textbf{tasso del codice}.
 
 \subsubsection{Converse}
 Per un canale M-ario numerico senza memoria e con capacità $C$, esiste $\delta>0$ tale che per un qualsiasi codice e strategia di decodifica, se $R\geq C$ (con $R$ tasso di informazione nominale della sorgente), la probabilità di errore sulla parola di codice è sempre $\geq\delta$.\\
@@ -1231,8 +1233,11 @@ $$\eta_y=\frac{H(\underline{y})}{L_y\log_2(M_y)}\qquad\eta_y\in[0,1]$$
 \subsubsection{Efficienza del codice ottimo}
 $$\eta>\frac{H(\underline{n})}{H(\underline{n})+\log_2(M_y)}$$
 \begin{enumerate}
-	\item Per $M_y=2$ il limite inferiore è vicine a $1^-$
+	\item Per $M_y=2$ il limite inferiore è vicino a $1^-$
 	\item Vorremmo che $H(\underline{n})\rightarrow+\infty$ per ridurre l'effetto di $\log_2(M_y)$ ma sappiamo essere limitata a $\log_2(M_n)$, quindi tenderemo ad \textbf{aumentare la dimensione dell'alfabeto}.
 \end{enumerate}
+
+\subsection{Efficienza spettrale}
+$$\eta=C\cdot T_C$$
 
 \end{document}
